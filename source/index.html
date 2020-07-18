@@ -1,12 +1,164 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+  <body class="page__body">
+    <header class="page-header">
+      <a class="page-header__logo" href="#">
+        <img src="https://via.placeholder.com/150x150">
+      </a>
+      <nav class="main-nav">
+        <div class="main-nav__wrapp">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+          <ul class="main-nav__list">
+            <li class="site-list_item">
+              <a class="site-list__link" href="catalog.html">
+                Каталог товаров
+              </a>
+            </li>
+            <li class="site-list_item">
+              <a class="site-list__link" href="#">
+                Вязание на заказ
+              </a>
+            </li>
+            <li class="site-list_item">
+              <a class="site-list__link" href="#">
+                Поиск по сайту
+              </a></li>
+            <li class="site-list_item">
+              <a class="site-list__link" href="#">
+                Корзина: пока пуста
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-page">
+      <div class="menu-container__top">
+        <div class="menu-wrapp__top">
+          <div class="menu-top__header">
+            <h1 class="menu-top__heading">
+              Милые штуки ручной работы для дома
+            </h1>
+          </div>
+          <a class="menu-top__dept">Предметы интерьера</a>
+          <a class="menu-top__dept">Детские игрушки</a>
+        </div>
+        <div class="menu-top__product">
+          <h1 class="menu-product__heading">Вязаные корзинки</h1>
+          <span menu-top__description>Товар недели</span>
+          <p class="menu-product__description">Экологически чистая пряжа,
+            ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+        </div>
+        <ul class="menu-prod__list">
+          <li class="prod-container__cell">
+            <span class="prod-container__item">Цвет:</span>
+            <span class="prod-container__item">«Тиффани»/серый</span>
+          </li>
+          <li class="prod-container__cell">
+            <span class="prod-container__item">Диаметр:</span>
+            <span class="prod-container__item">25 см</span>
+          </li>
+          <li class="prod-container__cell">
+            <span class="prod-container__item">Высота:</span>
+            <span class="prod-container__item">15 см</span>
+          </li>
+        </ul>
+        <figure>
+          <img src="https://via.placeholder.com/150x150" alt="Вязаные корзинки">
+          <figcaption class="item__figcaption">Цена: 990 руб.</figcaption>
+        </figure>
+        <button class="menu-prod__button button">
+          <span class="visually-hidden">Заказать товар</span>
+        </button>
+      </div>
+      <div class="menu-container__middle">
+        <div class="menu-wrapp__info">
+          <h1 class="menu-info__heading">Коротко о нас:</h1>
+        </div>
+        <div class="main-wrapp__list">
+          <ul class="main-container__list">
+            <li class="main-info__item">Экологически чистые материалы</li>
+            <li class="main-info__item">Скандинавский стиль по российской цене</li>
+            <li class="main-info__item">Увеличивает лайкина фотографиях</li>
+            <li class="main-info__item">Связано вручную с любовью и умилением</li>
+            <li class="main-info__item">Поддержка отечественного производителя</li>
+            <li class="main-info__item">Поставляется в подарочной упаковке</li>
+          </ul>
+        </div>
+        <section class="reviews">
+          <div class="reviews__wrapper slider">
+            <h2 class="reviews__title">Отзывы</h2>
+            <div class="reviews__list slider__list">
+              <blockquote class="reviews__item slider__item">
+                <div class="reviews__author-info">
+                  <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров
+                    и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают
+                    больше лайков!</p>
+                  <cite class="reviews__author-name">Анастасия Красильникова</cite>
+                  <a class="reviews__author-link" href="#">@misssssiskras</a>
+                </div>
+              </blockquote>
+            </div>
+              <div class="reviews__toggles slider__toggles">
+                <a class="slider__toggle slider__toggle--current" type="button">1</a>
+                <a class="slider__toggle" type="button">2</a>
+                <a class="slider__toggle" type="button">3</a>
+              </div>
+            </div>
+            <a class="reviews__prev" type="button">Предыдущий отзыв</a>
+            <a class="reviews__next" type="button">Следующий отзыв</a>
+            <a class="reviews__write button" href="#">Написать</a>
+        </section>
+      </div>
+      <div class="menu-container__bottom">
+        <div class="menu-contacts__bottom">
+          <h1 class="main-contacts__heading">Контакты</h1>
+          <ul class="main-contacts__list">
+            <li class="main-contacts__item">
+              <span class="contacts-container__email">e-mail:</span>
+              <span class="contacts-container__email">info@mimimishkashop.ru</span>
+            </li>
+            <li class="main-contacts__item">
+              <span class="contacts-container__adress">адрес:</span>
+              <span class="contacts-container__adress">г. Санкт-Петербург,ул. Большая Конюшенная, д. 19/8, офис 101</span>
+            </li>
+          </ul>
+          <a class="contacts-writeus button" href="#">Напишите нам</a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-page">
+      <ul class="footer-social__list">
+        <li class="footer-social__item">
+          <a href="#" class="footer-social__link"></a>
+        </li>
+        <li class="footer-social__item">
+          <a href="#" class="footer-social__link"></a>
+        </li>
+        <li class="footer-social__item">
+          <a href="#" class="footer-social__link"></a>
+        </li>
+      </ul>
+      <div class="footer-developer">
+        Разработано
+        <a class="footer-developer__link" href="https://htmlacademy.ru/intensive/adaptive"></a>
+      </div>
+    </footer>
+    <div class="modal-container">
+      <h1 class="modal-heading">
+        Добавить в корзину
+      </h1>
+      <span>Выберите размер:</span>
+      <input class="modal-button" type="radio">s</input>
+      <input class="modal-button" type="radio">m</input>
+      <input class="modal-button" type="radio">l</input>
+      <a href="#" class="modal-link">Добавить</a>
+    </div>
   </body>
 </html>
