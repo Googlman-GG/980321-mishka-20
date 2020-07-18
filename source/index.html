@@ -46,12 +46,8 @@
               Милые штуки ручной работы для дома
             </h1>
           </div>
-          <a class="menu-top__dept">
-            <h2 class="menu-dept__heading">Предметы интерьера</h2>
-          </a>
-          <a class="menu-top__dept">
-            <h2 class="menu-dept__heading">Детские игрушки</h2>
-          </a>
+          <a class="menu-top__dept">Предметы интерьера</a>
+          <a class="menu-top__dept">Детские игрушки</a>
         </div>
         <div class="menu-top__product">
           <h1 class="menu-product__heading">Вязаные корзинки</h1>
@@ -59,20 +55,20 @@
           <p class="menu-product__description">Экологически чистая пряжа,
             ручная работа. Доступны в шести расцветках, и трех размерах.</p>
         </div>
-        <table class="menu-prod__table">
-          <tr class="prod-container__cell">
-            <td class="prod-container__item">Цвет:</td>
-            <td class="prod-container__item">«Тиффани»/серый</td>
-          </tr>
-          <tr class="prod-container__cell">
-            <td class="prod-container__item">Диаметр:</td>
-            <td class="prod-container__item">25 см</td>
-          </tr>
-          <tr class="prod-container__cell">
-            <td class="prod-container__item">Высота:</td>
-            <td class="prod-container__item">15 см</td>
-          </tr>
-        </table>
+        <ul class="menu-prod__list">
+          <li class="prod-container__cell">
+            <span class="prod-container__item">Цвет:</span>
+            <span class="prod-container__item">«Тиффани»/серый</span>
+          </li>
+          <li class="prod-container__cell">
+            <span class="prod-container__item">Диаметр:</span>
+            <span class="prod-container__item">25 см</span>
+          </li>
+          <li class="prod-container__cell">
+            <span class="prod-container__item">Высота:</span>
+            <span class="prod-container__item">15 см</span>
+          </li>
+        </ul>
         <figure>
           <img src="https://via.placeholder.com/150x150" alt="Вязаные корзинки">
           <figcaption class="item__figcaption">Цена: 990 руб.</figcaption>
@@ -109,31 +105,30 @@
                 </div>
               </blockquote>
             </div>
-              <p class="reviews__toggles slider__toggles">
-                <button class="slider__toggle slider__toggle--current" type="button">1</button>
-                <button class="slider__toggle" type="button">2</button>
-                <button class="slider__toggle" type="button">3</button>
-              </p>
+              <div class="reviews__toggles slider__toggles">
+                <a class="slider__toggle slider__toggle--current" type="button">1</a>
+                <a class="slider__toggle" type="button">2</a>
+                <a class="slider__toggle" type="button">3</a>
+              </div>
             </div>
-            <button class="reviews__prev" type="button">Предыдущий отзыв</button>
-            <button class="reviews__next" type="button">Следующий отзыв</button>
+            <a class="reviews__prev" type="button">Предыдущий отзыв</a>
+            <a class="reviews__next" type="button">Следующий отзыв</a>
             <a class="reviews__write button" href="#">Написать</a>
         </section>
       </div>
       <div class="menu-container__bottom">
         <div class="menu-contacts__bottom">
           <h1 class="main-contacts__heading">Контакты</h1>
-          <table class="main-contacts__table">
-            <tr class="main-contacts__item">
-              <td class="contacts-container__email">e-mail:</td>
-              <td class="contacts-container__email">info@mimimishkashop.ru</td>
-            </tr>
-            <tr class="main-contacts__item">
-              <td class="contacts-container__adress">адрес:</td>
-              <td class="contacts-container__adress">г. Санкт-Петербург,ул. Большая Конюшенная, д. 19/8, офис 101</td>
-            </tr>
-            <tr class="main-contacts__item"></tr>
-          </table>
+          <ul class="main-contacts__list">
+            <li class="main-contacts__item">
+              <span class="contacts-container__email">e-mail:</span>
+              <span class="contacts-container__email">info@mimimishkashop.ru</span>
+            </li>
+            <li class="main-contacts__item">
+              <span class="contacts-container__adress">адрес:</span>
+              <span class="contacts-container__adress">г. Санкт-Петербург,ул. Большая Конюшенная, д. 19/8, офис 101</span>
+            </li>
+          </ul>
           <a class="contacts-writeus button" href="#">Напишите нам</a>
         </div>
       </div>
@@ -160,9 +155,9 @@
         Добавить в корзину
       </h1>
       <span>Выберите размер:</span>
-      <button class="modal-button" type="button">s</button>
-      <button class="modal-button" type="button">m</button>
-      <button class="modal-button" type="button">l</button>
+      <input class="modal-button" type="radio">s</input>
+      <input class="modal-button" type="radio">m</input>
+      <input class="modal-button" type="radio">l</input>
       <a href="#" class="modal-link">Добавить</a>
     </div>
   </body>

@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Давид Овдиенко](https://up.htmlacademy.ru/adaptive/20/user/980321).
-* Наставник: [Евгений Петров] (https://htmlacademy.ru/profile/id617077).
+* Наставник: [Евгений Петров](https://htmlacademy.ru/profile/id617077).
 
 ---
 
