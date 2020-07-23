@@ -1,1 +1,213 @@
-// Начните писать стили здесь
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
+}
+@font-face {
+  font-family: "Open Sans-bold";
+  src: url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff2") format("woff");
+}
+
+html {
+  box-sizing: border-box;
+}
+*,*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: "Open Sans-bold" , "Arial", sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.button {
+  padding: 16px 25px;
+  background-color: #fff;
+  border: 2px solid #444444;
+}
+.page-header {
+  text-align: center;
+}
+//Мобильная навигация
+.main-nav__wrapp {
+  position: relative;
+}
+.main-nav__toggle {
+  top: -60px;
+  right: 10px;
+  border: none;
+  position: absolute;
+  background-color: #fff;
+}
+//Анимация кнопки
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:#000;
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+.ham1 .top {
+  stroke-dasharray: 40 139;
+}
+.ham1 .bottom {
+  stroke-dasharray: 40 180;
+}
+.ham1.active .top {
+  stroke-dashoffset: -98px;
+}
+.ham1.active .bottom {
+  stroke-dashoffset: -138px;
+}
+.main-list__wrapp {
+  display: none;
+}
+.main-nav__list {
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+.main-nav__item {
+  display: flex;
+  padding-left: 75px;
+  box-shadow: 0px 1px 0px #ECECEC, inset 0px 1px 0px #ECECEC;
+}
+.main-nav__link {
+  display: block;
+  color: black;
+  padding-top: 28.5px;
+  padding-bottom: 26.5px;
+}
+.main-nav__search {
+  display: flex;
+  align-items: center;
+}
+.main-nav__icon {
+  left: 30px;
+  position: absolute;
+}
+.main-nav__basked {
+  display: flex;
+  align-items: center;
+}
+.main-nav__text {
+  font-size: 17px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.menu-top__header {
+  background-image: url(../img/hero-mobile@1x.jpg);
+  background-position: center -10px;
+  background-repeat: no-repeat;
+}
+.menu-top__heading {
+  padding: 80px 0;
+  text-align: center;
+  font-size: 27px;
+  line-height: 30px;
+}
+.menu-top__dept {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  height: 100px;
+  font-size: 19px;
+  line-height: 24px;
+  color: #fff;
+}
+.dept-svg {
+  opacity: 0.5;
+}
+.dept-first {
+  background-color: #63D1BB;
+}
+.dept-second {
+  background-color: #56C3B2;
+}
+.menu-top__product {
+  padding: 0 30px;
+}
+.menu-product__heading {
+  font-size: 25px;
+  line-height: 30px;
+}
+.menu-top__description {
+  color: #63D1BB;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.menu-product__description {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.menu-prod__list {
+  padding: 0;
+  list-style: none;
+}
+.prod-container__cell {
+  padding:  10px 0;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  border-bottom: 1px solid #ECECEC;
+}
+.prod-container__item {
+  min-width: 100px;
+}
+.main-prod__figuge {
+  margin: 0;
+
+  text-align: center;
+}
+.main-prod__figcaption {
+  margin: 25px;
+  font-size: 17px;
+  line-height: 24px;
+}
+.menu-prod__button {
+  margin: 0 ;
+  width: 260px;
+}
+
+
+
+.show {
+  display: block;
+}
