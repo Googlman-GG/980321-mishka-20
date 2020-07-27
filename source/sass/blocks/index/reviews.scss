@@ -2,27 +2,32 @@
   padding: 30px;
   padding-bottom: 0;
 }
+
 .reviews__item {
   margin: 0;
   padding: 0 30px;
 }
+
 .reviews__text {
   font-size: 17px;
   line-height: 24px;
 }
+
 .reviews__author-link {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   color: $smallfont;
   font-size: 17px;
   line-height: 30px;
 }
+
 .review-button {
   margin: 0 auto;
   font-size: 0;
   background-color: $white;
-  border: 1px solid #ECECEC;
+  border: 1px solid $box-shadow;
   padding: 13px 38px;
 }
+
 .reviews__write {
   text-align: center;
   text-decoration: none;

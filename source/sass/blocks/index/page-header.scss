@@ -1,8 +1,9 @@
 .page-header {
   text-align: center;
 }
+
 @media (min-width: $tablet-width) {
-  .header-logo__mobile{
+  .header-logo__mobile {
     display: none;
   }
 }

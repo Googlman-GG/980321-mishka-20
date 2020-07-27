@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::after,
 *::before {
   box-sizing: inherit;
 }
+
 body {
   min-width: 320px;
   overflow-x: hidden;
@@ -24,9 +26,7 @@ $mobile-width-only: 767px;
 @import "blocks/index/main-about.scss";
 @import "blocks/index/reviews.scss";
 @import "blocks/index/contacts.scss";
-
 //catalog.html
 @import "blocks/catalog/heading.scss";
 @import "blocks/catalog/main-catalog.scss";
-
 @import "blocks/index/footer.scss";
