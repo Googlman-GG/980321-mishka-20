@@ -7,7 +7,7 @@
   min-height: 72px;
   display: block;
   background-position: center center;
-  background-image: url("/img/logo-mobile.svg");
+  background-image: url("../img/logo-mobile.svg");
   background-repeat: no-repeat;
 }
 
@@ -17,7 +17,7 @@
     min-height: 72px;
     display: block;
     background-position: center center;
-    background-image: url("/img/logo-tablet.svg");
+    background-image: url("../img/logo-tablet.svg");
     background-repeat: no-repeat;
   }
 }
@@ -25,10 +25,10 @@
 @media (min-width: $desktop-width) {
   .page-header__logo {
     min-width: 150px;
-    min-height: 72px;
+    min-height: 72px; 
     display: block;
     background-position: center center;
-    background-image: url("/img/logo-desktop.svg");
+    background-image: url("../img/logo-desktop.svg");
     background-repeat: no-repeat;
   }
 }
