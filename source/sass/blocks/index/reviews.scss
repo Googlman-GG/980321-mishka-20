@@ -1,0 +1,35 @@
+.reviews__title {
+  padding: 30px;
+  padding-bottom: 0;
+}
+.reviews__item {
+  margin: 0;
+  padding: 0 30px;
+}
+.reviews__text {
+  font-size: 17px;
+  line-height: 24px;
+}
+.reviews__author-link {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: $smallfont;
+  font-size: 17px;
+  line-height: 30px;
+}
+.review-button {
+  margin: 0 auto;
+  font-size: 0;
+  background-color: $white;
+  border: 1px solid #ECECEC;
+  padding: 13px 38px;
+}
+.reviews__write {
+  text-align: center;
+  text-decoration: none;
+  width: 260px;
+  padding: 16px 0;
+  margin: 0 auto;
+  margin-top: 38px;
+  display: block;
+  color: $black;
+}
