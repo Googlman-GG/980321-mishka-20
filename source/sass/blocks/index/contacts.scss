@@ -17,6 +17,8 @@
   }
 
   .contacts__map {
+    width: 100%;
+    height: auto;
     position: relative;
   }
 
@@ -33,7 +35,7 @@
 }
 
 .contacts__map::after {
-  content: "";
+  content: "assd";
   position: absolute;
   display: block;
   top: 0;

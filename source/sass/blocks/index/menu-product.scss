@@ -3,6 +3,7 @@
 }
 
 .menu-product__heading {
+  margin-top: 30px;
   font-size: 25px;
   line-height: 30px;
 }
@@ -44,6 +45,11 @@
   text-align: center;
 }
 
+.product__image {
+  width: 100%;
+  height: auto;
+}
+
 .main-prod__figcaption {
   margin: 25px;
   font-size: 17px;
@@ -51,6 +57,7 @@
 }
 
 .menu-prod__button {
-  margin: 0;
+  display: block;
+  margin: 0 auto;
   width: 260px;
 }
