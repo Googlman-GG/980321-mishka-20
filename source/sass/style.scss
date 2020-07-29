@@ -15,19 +15,24 @@ body {
 $desktop-width: 1200px;
 $tablet-width: 768px;
 $mobile-width-only: 767px;
+
+@import "logo.scss";
+@import "colors.scss";
+@import "fonts.scss";
+@import "buttons.scss";
+@import "burger.scss";
 //index.html
-@import "source/sass/colors.scss";
-@import "source/sass/fonts.scss";
-@import "blocks/index/buttons.scss";
-@import "blocks/index/page-header.scss";
-@import "blocks/index/main-nav.scss";
-@import "blocks/index/menu-heading.scss";
-@import "blocks/index/menu-product.scss";
-@import "blocks/index/main-about.scss";
-@import "blocks/index/reviews.scss";
-@import "blocks/index/contacts.scss";
+@import "blocks/index/index-nav.scss";
+@import "blocks/index/index-heading.scss";
+@import "blocks/index/index-product.scss";
+@import "blocks/index/index-about.scss";
+@import "blocks/index/index-reviews.scss";
+@import "blocks/index/index-contacts.scss";
 //catalog.html
-@import "blocks/catalog/heading.scss";
-@import "blocks/catalog/main-catalog.scss";
-@import "blocks/catalog/product.scss";
-@import "blocks/index/footer.scss";
+@import "blocks/catalog/catalog-heading.scss";
+@import "blocks/catalog/catalog-main.scss";
+@import "blocks/catalog/catalog-product.scss";
+//footer
+@import "blocks/footer/footer.scss";
+@import "blocks/footer/footer-social.scss";
+
