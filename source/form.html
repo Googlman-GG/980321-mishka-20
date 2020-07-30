@@ -61,14 +61,14 @@
         <fieldset class="radio">
           <legend>Тип:</legend>
             <ul>
-             <li class="input-item">
-               <input class="filter-radio" type="radio" name="type" id="filter-accessory" value="accessory" checked>
-               <label for="filter-battery">Аксессуар для интерьера</label>
-             </li>
-             <li class="input-item">
-               <input class="filter-radio" type="radio" name="type" id="filter-toy" value="toy">
-               <label for="filter-cable">Детская игрушка</label>
-             </li>
+              <li class="input-item">
+                <input class="filter-radio" type="radio" name="type" id="filter-accessory" value="accessory" checked>
+                <label for="filter-battery">Аксессуар для интерьера</label>
+              </li>
+              <li class="input-item">
+                <input class="filter-radio" type="radio" name="type" id="filter-toy" value="toy">
+                <label for="filter-cable">Детская игрушка</label>
+              </li>
             </ul>
           </fieldset>
           <fieldset class="checkbox">
@@ -99,44 +99,44 @@
                 <label for="filter-orange">Оранжевый</label>
               </li>
             </ul>
-         </fieldset>
-         <fieldset>
-           <legend class="name">фио</legend>
-           <ul>
+          </fieldset>
+          <fieldset>
+            <legend class="name">фио</legend>
+            <ul>
+              <li>
+                <label for="name">Имя:</label>
+                <input class="input-name" type="text" name="name" id="name" placeholder="Введите ваше имя*" required>
+              </li>
+              <li>
+                <label for="surname">Фамилия:</label>
+                <input class="input-name" type="text" name="surname" id="surname" placeholder="Укажите фамилию*" required>
+              </li>
+              <li>
+                <label for="patronymic">Отчество:</label>
+                <input class="input-name" type="text" name="patronymic" id="patronymic" placeholder="Отчество, если желаете" required>
+              </li>
+            </ul>
+          </fieldset>
+          <ul>
             <li>
-              <label for="name">Имя:</label>
-              <input class="input-name" type="text" name="name" id="name" placeholder="Введите ваше имя*" required>
+              <label for="tel">Номер телефона</label>
+              <input type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX" id="tel" required>
             </li>
             <li>
-              <label for="surname">Фамилия:</label>
-              <input class="input-name" type="text" name="surname" id="surname" placeholder="Укажите фамилию*" required>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="" required>
             </li>
             <li>
-              <label for="patronymic">Отчество:</label>
-              <input class="input-name" type="text" name="patronymic" id="patronymic" placeholder="Отчество, если желаете" required>
+              <label for="note">Текст заметки</label>
+              <textarea  name="note" rows="5" id="note">Опишите все ваши пожелания к заказу</textarea>
             </li>
-           </ul>
-         </fieldset>
-         <ul>
-           <li>
-            <label for="tel">Номер телефона</label>
-            <input type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX" id="tel" required>
-           </li>
-           <li>
-             <label for="email">Email</label>
-             <input type="email" name="email" id="email" placeholder="" required>
-           </li>
-           <li>
-            <label for="note">Текст заметки</label>
-            <textarea  name="note" rows="5" id="note">Опишите все ваши пожелания к заказу</textarea>
-           </li>
-         </ul>
-         <span class="form__description">
-          *Поля обязательны для заполнения
-         </span>
-         <div class="button">
-          <input type="submit" value="отправить заказ">
-        </div>
+          </ul>
+          <span class="form__description">
+            *Поля обязательны для заполнения
+          </span>
+          <div class="button">
+            <input type="submit" value="отправить заказ">
+          </div>
       </form>
     </main>
     <footer class="footer-page">
