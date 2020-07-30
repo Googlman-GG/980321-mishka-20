@@ -1,1 +1,38 @@
-// Начните писать стили здесь
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+$desktop-width: 1200px;
+$tablet-width: 768px;
+$mobile-width-only: 767px;
+
+@import "logo.scss";
+@import "colors.scss";
+@import "fonts.scss";
+@import "buttons.scss";
+@import "burger.scss";
+//index.html
+@import "blocks/index/index-nav.scss";
+@import "blocks/index/index-heading.scss";
+@import "blocks/index/index-product.scss";
+@import "blocks/index/index-about.scss";
+@import "blocks/index/index-reviews.scss";
+@import "blocks/index/index-contacts.scss";
+//catalog.html
+@import "blocks/catalog/catalog-heading.scss";
+@import "blocks/catalog/catalog-main.scss";
+@import "blocks/catalog/catalog-product.scss";
+//footer
+@import "blocks/footer/footer.scss";
+@import "blocks/footer/footer-social.scss";
+@import "blocks/footer/footer-developer.scss";

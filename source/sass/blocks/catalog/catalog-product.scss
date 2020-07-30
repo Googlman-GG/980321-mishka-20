@@ -1,0 +1,42 @@
+.product__name {
+  margin-top: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.product__description {
+  font-family: "Open sans", "Arials", sans-serif;
+  font-size: 13px;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
+
+.product__border {
+  width: 70%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: $border-footer;
+}
+
+.product__details {
+  margin: 22px 0 26px 0;
+  padding: 0 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__btn {
+  background: none;
+  border: none;
+}
+
+.product__svg {
+  opacity: 0.2;
+  fill: $black;
+}
+
+.main-catalog__figure {
+  margin: 0;
+}
