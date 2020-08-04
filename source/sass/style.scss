@@ -33,8 +33,12 @@ $mobile-width-only: 767px;
 @import "blocks/catalog/catalog-main.scss";
 @import "blocks/catalog/catalog-product.scss";
 //form
+@import "blocks/form/form-form.scss";
 @import "blocks/form/form-heading.scss";
 @import "blocks/form/form-details.scss";
+@import "blocks/form/form-radio.scss";
+@import "blocks/form/form-checkbox.scss";
+@import "blocks/form/form-name.scss";
 //footer
 @import "blocks/footer/footer.scss";
 @import "blocks/footer/footer-social.scss";

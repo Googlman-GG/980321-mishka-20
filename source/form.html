@@ -58,79 +58,67 @@
         </span>
       </div>
       <form class="form" action="https://echo.htmlacademy.ru" method="get">
-        <fieldset class="radio">
-          <legend>Тип:</legend>
-            <ul>
-              <li class="input-item">
-                <input class="filter-radio" type="radio" name="type" id="filter-accessory" value="accessory" checked>
-                <label for="filter-battery">Аксессуар для интерьера</label>
-              </li>
-              <li class="input-item">
-                <input class="filter-radio" type="radio" name="type" id="filter-toy" value="toy">
-                <label for="filter-cable">Детская игрушка</label>
-              </li>
-            </ul>
+        <fieldset class="form-radio">
+          <legend class="form-radio__legend">Тип:</legend>
+            <label class="label-radio">
+              <input class="visually-hidden input-radio" type="radio" name="type" value="accessory" checked>
+              Аксессуар для интерьера</label>
+            <label class="label-radio">
+              <input class="visually-hidden input-radio" type="radio" name="type" value="toy">
+              Детская игрушка
+            </label>
           </fieldset>
-          <fieldset class="checkbox">
-            <legend>Цвет:</legend>
-            <ul>
-              <li class="input-item">
-                <input class="filter-checkbox" type="checkbox" name="white" id="filter-white" checked>
-                <label for="filter-white">Белый</label>
-              </li>
-              <li class="input-item">
-                <input class="filter-checkbox" type="checkbox" name="grey" id="filter-grey" checked>
-                <label for="filter-grey">Серый</label>
-              </li>
-              <li class="input-item">
-                <input class="filter-checkbox" type="checkbox" name="tiffany" id="filter-tiffany" >
-                <label for="filter-tiffany">«Тиффани»</label>
-              </li>
-              <li class="input-item">
-                <input class="filter-checkbox" type="checkbox" name="black" id="filter-black" >
-                <label for="filter-black">Черный</label>
-              </li>
-              <li class="input-item">
-                <input class="filter-checkbox " type="checkbox" name="pink" id="filter-pink">
-                <label for="filter-pink">Розовый</label>
-              </li>
-              <li class="input-item">
-                <input class="filter-checkbox " type="checkbox" name="orange" id="filter-orange">
-                <label for="filter-orange">Оранжевый</label>
-              </li>
-            </ul>
+          <fieldset class="form-checkbox">
+            <legend class="form-checkbox__legend">Цвет:</legend>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="white" checked>
+              Белый
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="grey" checked>
+              Серый
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="tiffany">
+              «Тиффани»
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="black">
+              Черный
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="pink">
+              Розовый
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="orange">
+              Оранжевый
+            </label>
           </fieldset>
-          <fieldset>
-            <legend class="name">фио</legend>
-            <ul>
-              <li>
-                <label for="name">Имя:</label>
-                <input class="input-name" type="text" name="name" id="name" placeholder="Введите ваше имя*" required>
-              </li>
-              <li>
-                <label for="surname">Фамилия:</label>
-                <input class="input-name" type="text" name="surname" id="surname" placeholder="Укажите фамилию*" required>
-              </li>
-              <li>
-                <label for="patronymic">Отчество:</label>
-                <input class="input-name" type="text" name="patronymic" id="patronymic" placeholder="Отчество, если желаете" required>
-              </li>
-            </ul>
+          <fieldset class="form-name">
+            <legend class="form-name__legend">фио</legend>
+            <label>
+              <input class="input-name" type="text" name="name" placeholder="Введите ваше имя*" required>
+              Имя:
+            </label>
+            <label>
+              <input class="input-name" type="text" name="surname" placeholder="Укажите фамилию*" required>
+              Фамилия:
+            </label>
+            <label>
+              <input class="input-name" type="text" name="patronymic" paplaceholder="Отчество, если желаете" required>
+              Отчество:
+            </label>
           </fieldset>
-          <ul>
-            <li>
-              <label for="tel">Номер телефона</label>
-              <input type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX" id="tel" required>
-            </li>
-            <li>
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" placeholder="" required>
-            </li>
-            <li>
-              <label for="note">Текст заметки</label>
-              <textarea  name="note" rows="5" id="note">Опишите все ваши пожелания к заказу</textarea>
-            </li>
-          </ul>
+              <labe>Номер телефона
+                <input type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX" required>
+              </labe>
+              <labe>Email
+                <input type="email" name="email" placeholder="Ваш Email*" required>
+              </labe>
+              <labe>Текст заметки
+                <textarea  name="note" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+              </labe>
           <span class="form__description">
             *Поля обязательны для заполнения
           </span>

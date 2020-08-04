@@ -1,0 +1,49 @@
+.form-radio {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-radio__legend {
+  padding-left: 26px;
+  font-size: 17px;
+  line-height: 16px;
+  color: $green;
+  text-transform: uppercase;
+}
+
+.form-radio__list {
+  list-style: none;
+}
+
+.label-radio {
+  font-size: 17px;
+  line-height: 18px;
+  padding: 15px 0 15px 30px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.input-radio + .label-radio::before {
+  content: "";
+  position: absolute;
+  left: -22px;
+  top: -1px;
+  width: 42px;
+  height: 42px;
+  border: 2px solid $black;
+  border-radius: 50%;
+}
+
+.input-radio:checked + .label-radio::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -10px;
+  width: 18px;
+  height: 18px;
+  background-color: $green;
+  border-radius: 50%;
+}
