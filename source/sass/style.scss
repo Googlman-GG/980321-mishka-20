@@ -12,6 +12,7 @@ body {
   min-width: 320px;
   overflow-x: hidden;
 }
+
 $desktop-width: 1200px;
 $tablet-width: 768px;
 $mobile-width-only: 767px;
@@ -23,16 +24,47 @@ $mobile-width-only: 767px;
 @import "burger.scss";
 //index.html
 @import "blocks/index/index-nav.scss";
+@import "blocks/index/index-toggle.scss";
+@import "blocks/index/index-nav-wrapp.scss";
+@import "blocks/index/index-nav-list.scss";
+@import "blocks/index/index-nav-search.scss";
+@import "blocks/index/index-nav-basked.scss";
 @import "blocks/index/index-heading.scss";
+@import "blocks/index/index-heading-images.scss";
 @import "blocks/index/index-product.scss";
+@import "blocks/index/index-product-list.scss";
+@import "blocks/index/index-figure.scss";
 @import "blocks/index/index-about.scss";
+@import "blocks/index/index-about-list.scss";
 @import "blocks/index/index-reviews.scss";
+@import "blocks/index/index-reviews-blockquote.scss";
+@import "blocks/index/index-reviews-author.scss";
+@import "blocks/index/index-reviews-buttons.scss";
 @import "blocks/index/index-contacts.scss";
+@import "blocks/index/index-contacts-list.scss";
+@import "blocks/index/index-contacts-list-item.scss";
+@import "blocks/index/index-contacts-map.scss";
+@import "blocks/index/index-contacts-button.scss";
 //catalog.html
 @import "blocks/catalog/catalog-heading.scss";
 @import "blocks/catalog/catalog-main.scss";
 @import "blocks/catalog/catalog-product.scss";
+@import "blocks/catalog/catalog-figure.scss";
+@import "blocks/catalog/catalog-figcaption.scss";
+@import "blocks/catalog/catalog-buttons.scss";
+//form
+@import "blocks/form/form-form.scss";
+@import "blocks/form/form-heading.scss";
+@import "blocks/form/form-details.scss";
+@import "blocks/form/form-radio.scss";
+@import "blocks/form/form-radio-label.scss";
+@import "blocks/form/form-radio-condition.scss";
+@import "blocks/form/form-checkbox.scss";
+@import "blocks/form/form-checkbox-label.scss";
+@import "blocks/form/form-checkbox-condition.scss";
+@import "blocks/form/form-name.scss";
 //footer
 @import "blocks/footer/footer.scss";
 @import "blocks/footer/footer-social.scss";
 @import "blocks/footer/footer-developer.scss";
+@import "blocks/footer/footer-developer-link.scss";

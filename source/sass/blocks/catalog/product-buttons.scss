@@ -1,0 +1,16 @@
+.product__details {
+  margin: 22px 0 26px 0;
+  padding: 0 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__btn {
+  background: none;
+  border: none;
+}
+
+.product__svg {
+  opacity: 0.2;
+  fill: $black;
+}

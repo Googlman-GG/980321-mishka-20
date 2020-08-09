@@ -8,3 +8,25 @@
   font-size: 27px;
   line-height: 30px;
 }
+
+@media (min-width: $tablet-width) {
+  .catalog-header__heading {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .catalog-header {
+    padding: 75px 30px;
+    text-align: center;
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-position: center bottom;
+    background-repeat: repeat no-repeat;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-header__heading {
+    font-size: 53px;
+    line-height: 57px;
+  }
+}

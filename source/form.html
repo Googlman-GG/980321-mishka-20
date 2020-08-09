@@ -28,12 +28,12 @@
                 <a class="main-nav__link main-nav__text" href="catalog.html">Каталог товаров</a>
               </li>
               <li class="main-nav__item">
-                <a class="main-nav__link main-nav__text" href="#">Вязание на заказ</a>
+                <a class="main-nav__link main-nav__text" href="form.html">Вязание на заказ</a>
               </li>
             </ul>
             <ul class="main-nav__list">
               <li class="main-nav__item main-nav__search">
-                <a class="main-nav__link main-nav__text" href="form.html">
+                <a class="main-nav__link main-nav__text" href="#">
                   <svg class="main-nav__icon" xmlns="http://www.w3.org/2000/svg" width="17.6" height="17.6" viewBox="-0.8 -0.8 17.6 17.6"><path fill="#231F20" d="M16.5 15L13 11.4A7.7 7.7 0 006.9-.8a7.7 7.7 0 104.6 13.9l3.4 3.4c.2.2.4.3.8.3.6 0 1.1-.5 1.1-1.1 0-.2 0-.5-.3-.8zM1.4 6.8a5.5 5.5 0 1111 0 5.5 5.5 0 01-11 0z"/></svg>
                   Поиск по сайту
                 </a>
@@ -48,6 +48,86 @@
           </div>
         </nav>
     </header>
+    <main class="main-form">
+      <div class="form-header">
+        <h1 class="form-header__heading">Вязание на заказ</h1>
+      </div>
+      <div class="form-details__container">
+        <span class="form__details">
+          Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
+        </span>
+      </div>
+      <form class="form" action="https://echo.htmlacademy.ru" method="get">
+        <fieldset class="form-radio">
+          <legend class="form-radio__legend">Тип:</legend>
+            <label class="label-radio">
+              <input class="visually-hidden input-radio" type="radio" name="type" value="accessory" checked>
+              <span class="label-radio">Аксессуар для интерьера</span>
+            </label>
+            <label class="label-radio">
+              <input class="visually-hidden input-radio" type="radio" name="type" value="toy">
+              Детская игрушка
+            </label>
+          </fieldset>
+          <fieldset class="form-checkbox">
+            <legend class="form-checkbox__legend">Цвет:</legend>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="white" checked>
+              Белый
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="grey" checked>
+              Серый
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="tiffany">
+              «Тиффани»
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="black">
+              Черный
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="pink">
+              Розовый
+            </label>
+            <label class="label-checkbox">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="orange">
+              Оранжевый
+            </label>
+          </fieldset>
+          <fieldset class="form-name">
+            <legend class="form-name__legend">фио</legend>
+            <label>
+              <input class="input-name" type="text" name="name" placeholder="Введите ваше имя*" required>
+              Имя:
+            </label>
+            <label>
+              <input class="input-name" type="text" name="surname" placeholder="Укажите фамилию*" required>
+              Фамилия:
+            </label>
+            <label>
+              <input class="input-name" type="text" name="patronymic" paplaceholder="Отчество, если желаете" required>
+              Отчество:
+            </label>
+          </fieldset>
+              <labe>Номер телефона
+                <input type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX" required>
+              </labe>
+              <labe>Email
+                <input type="email" name="email" placeholder="Ваш Email*" required>
+              </labe>
+              <labe>Текст заметки
+                <textarea  name="note" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+              </labe>
+          <span class="form__description">
+            *Поля обязательны для заполнения
+          </span>
+          <div class="button">
+            <input type="submit" value="отправить заказ">
+          </div>
+      </form>
+    </main>
     <footer class="footer-page">
       <ul class="footer-page__list">
         <li class="footer-page__item">
