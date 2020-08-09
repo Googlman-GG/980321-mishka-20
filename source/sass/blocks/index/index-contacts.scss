@@ -2,35 +2,6 @@
   padding: 30px;
 }
 
-.contacts__list {
-  padding: 0 30px;
-  list-style: none;
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 30px;
-  color: $smallfont;
-}
-
-.contacts-container {
-  min-width: 120px;
-}
-
-.contacts__map {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-
-.contacts__map::after {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-image: url("/img/icon-map-pin.svg");
-}
-
 .contacts__button {
   width: 260px;
   margin: 0 auto;

@@ -1,0 +1,21 @@
+.product__name {
+  margin-top: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.product__description {
+  font-family: "Open sans", "Arials", sans-serif;
+  font-size: 13px;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
+
+.product__border {
+  width: 70%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: $border-footer;
+}

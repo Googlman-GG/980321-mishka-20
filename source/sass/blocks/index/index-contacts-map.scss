@@ -1,0 +1,15 @@
+.contacts__map {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.contacts__map::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url("/img/icon-map-pin.svg");
+}

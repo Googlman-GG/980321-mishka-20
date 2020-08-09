@@ -10,26 +10,3 @@
   font-size: 27px;
   line-height: 30px;
 }
-
-.menu-top__dept {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 35px;
-  height: 100px;
-  font-size: 19px;
-  line-height: 24px;
-  color: $white;
-}
-
-.dept-svg {
-  opacity: 0.5;
-}
-
-.dept-first {
-  background-color: $green;
-}
-
-.dept-second {
-  background-color: $green-darker;
-}

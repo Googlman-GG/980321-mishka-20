@@ -1,0 +1,13 @@
+.main-catalog__figure {
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .main-catalog__figure {
+    display: flex;
+  }
+
+  .product__figcaption {
+    flex-grow: 1;
+  }
+}
