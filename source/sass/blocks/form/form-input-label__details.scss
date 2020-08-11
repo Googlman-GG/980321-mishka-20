@@ -1,0 +1,28 @@
+.input-details {
+  min-width: 260px;
+  border: none;
+  margin: 15px 0;
+  padding-bottom: 10px;
+  box-shadow: inset 0 -2px 0 $black;
+}
+
+.input-label__details {
+  text-transform: uppercase;
+  display: block;
+  background-color: $white;
+  color: $green;
+  font-size: 17px;
+  line-height: 16px;
+  position: relative;
+}
+
+.input-label__details::after {
+  content: "";
+  width: 70%;
+  height: 1px;
+  background: $green;
+  display: block;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
