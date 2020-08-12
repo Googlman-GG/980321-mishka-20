@@ -2,7 +2,7 @@
   content: "";
   position: absolute;
   top: -1px;
-  left: 0;
+  left: -20px;
   width: 42px;
   height: 42px;
   border: 2px solid $black;
@@ -12,8 +12,8 @@
 .input-radio:checked + .label-radio::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: -10px;
+  top: 10px;
+  left: -8px;
   width: 18px;
   height: 18px;
   background-color: $green;

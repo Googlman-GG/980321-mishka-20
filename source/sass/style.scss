@@ -44,14 +44,12 @@ $mobile-width-only: 767px;
 @import "blocks/index/index-contacts-list.scss";
 @import "blocks/index/index-contacts-list-item.scss";
 @import "blocks/index/index-contacts-map.scss";
-@import "blocks/index/index-contacts-button.scss";
 //catalog.html
 @import "blocks/catalog/catalog-heading.scss";
 @import "blocks/catalog/catalog-main.scss";
-@import "blocks/catalog/catalog-product.scss";
 @import "blocks/catalog/catalog-figure.scss";
 @import "blocks/catalog/catalog-figcaption.scss";
-@import "blocks/catalog/catalog-buttons.scss";
+@import "blocks/catalog/catalog-product-buttons.scss";
 //form
 @import "blocks/form/form-form.scss";
 @import "blocks/form/form-heading.scss";
@@ -63,6 +61,12 @@ $mobile-width-only: 767px;
 @import "blocks/form/form-checkbox-label.scss";
 @import "blocks/form/form-checkbox-condition.scss";
 @import "blocks/form/form-name.scss";
+@import "blocks/form/form-input-name.scss";
+@import "blocks/form/form-input-details.scss";
+@import "blocks/form/form-input-label__details.scss";
+@import "blocks/form/form-input-textarea-field.scss";
+@import "blocks/form/form-description.scss";
+@import "blocks/form/form-button.scss";
 //footer
 @import "blocks/footer/footer.scss";
 @import "blocks/footer/footer-social.scss";
