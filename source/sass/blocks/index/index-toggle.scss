@@ -4,4 +4,9 @@
   border: none;
   position: absolute;
   background-color: $white;
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }

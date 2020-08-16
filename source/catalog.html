@@ -11,6 +11,11 @@
     <header class="page-header">
       <a class="page-header__logo" href="index.html">
         <span class="visually-hidden">Логотип сайта</span>
+        <picture class="logo-picture">
+          <source media="(min-width: 1200px)" srcset="img/logo-desktop.svg">
+          <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+          <img class="logo" src="img/logo-mobile.svg" alt="Логотип сайта" width="86" height="35">
+        </picture>
       </a>
         <nav class="main-nav__wrapp">
           <button class="main-nav__toggle" type="button">
@@ -121,6 +126,11 @@
       </div>
     </main>
     <footer class="footer-page">
+      <div class="footer-logo">
+        <a class="logo-link">
+          <img src="img/logo-footer.svg" alt="Логотип сайта" width="102" height="34">
+        </a>
+      </div>
       <ul class="footer-page__list">
         <li class="footer-page__item">
           <a class="footer-page__link" target="_blank" href="#">

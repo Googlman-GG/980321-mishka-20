@@ -1,0 +1,7 @@
+.menu_product__description-container {
+  @media (min-width: $tablet-width) {
+    flex-basis: 40%;
+    padding: 0 20px;
+    order: 0;
+  }
+}

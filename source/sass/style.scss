@@ -10,6 +10,7 @@ html {
 
 body {
   min-width: 320px;
+  max-width: 1250px;
   overflow-x: hidden;
 }
 
@@ -30,19 +31,29 @@ $mobile-width-only: 767px;
 @import "blocks/index/index-nav-search.scss";
 @import "blocks/index/index-nav-basked.scss";
 @import "blocks/index/index-heading.scss";
+@import "blocks/index/index-dept-container.scss";
 @import "blocks/index/index-heading-images.scss";
+@import "blocks/index/index-product-heading.scss";
 @import "blocks/index/index-product.scss";
+@import "blocks/index/index-product-wrapp.scss";
+@import "blocks/index/index-product-info.scss";
 @import "blocks/index/index-product-list.scss";
-@import "blocks/index/index-figure.scss";
+@import "blocks/index/index-prod-image.scss";
+@import "blocks/index/index-order.scss";
 @import "blocks/index/index-about.scss";
 @import "blocks/index/index-about-list.scss";
+@import "blocks/index/index-about-item.scss";
 @import "blocks/index/index-reviews.scss";
+@import "blocks/index/index-reviews-title.scss";
 @import "blocks/index/index-reviews-blockquote.scss";
 @import "blocks/index/index-reviews-author.scss";
 @import "blocks/index/index-reviews-buttons.scss";
+@import "blocks/index/index-reviews-write.scss";
 @import "blocks/index/index-contacts.scss";
+@import "blocks/index/index-contacts-heading.scss";
 @import "blocks/index/index-contacts-list.scss";
 @import "blocks/index/index-contacts-list-item.scss";
+@import "blocks/index/index-contacts-map-poicture.scss";
 @import "blocks/index/index-contacts-map.scss";
 //catalog.html
 @import "blocks/catalog/catalog-heading.scss";
@@ -69,6 +80,13 @@ $mobile-width-only: 767px;
 @import "blocks/form/form-button.scss";
 //footer
 @import "blocks/footer/footer.scss";
+@import "blocks/footer/footer-logo.scss";
 @import "blocks/footer/footer-social.scss";
 @import "blocks/footer/footer-developer.scss";
 @import "blocks/footer/footer-developer-link.scss";
+//modal
+@import "blocks/modal/modal.scss";
+@import "blocks/modal/modal-heading.scss";
+@import "blocks/modal/modal-element.scss";
+@import "blocks/modal/modal-button.scss";
+@import "blocks/modal/modal-close.scss";

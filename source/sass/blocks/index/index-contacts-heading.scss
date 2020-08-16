@@ -1,0 +1,17 @@
+.contacts-heading__container {
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: $tablet-width) {
+    padding: 20px;
+  }
+}
+
+.contacts-svg {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    margin-right: 20px;
+  }
+}

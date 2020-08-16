@@ -1,0 +1,10 @@
+.product__image {
+  width: 100%;
+  height: auto;
+
+  @media (min-width: $tablet-width) {
+    order: 1;
+    width: 100%;
+    height: auto;
+  }
+}
