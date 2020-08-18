@@ -1,0 +1,14 @@
+.main-nav__links {
+  display: none;
+  grid-area: links;
+  list-style: none;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}
+
+.main-nav__links-item {
+  display: block;
+  margin: 0 30px;
+}

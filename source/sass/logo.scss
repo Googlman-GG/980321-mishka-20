@@ -1,20 +1,43 @@
+.page-header__logo {
+  min-width: 150px;
+
+
+  @media (min-width: $tablet-width) {
+    border: 1px solid grey;
+    border-right: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    border: none;
+    border-right: none;
+  }
+}
+
 .logo-picture {
+  grid-area: logo;
   display: flex;
+  align-items: center;
   justify-content: center;
   margin: 22px 0;
 
   @media (min-width: $tablet-width) {
+     justify-content: flex-start;
+
     .logo {
+      margin-left: 30px;
       min-width: 113px;
       min-height: 46px;
     }
   }
 
   @media (min-width: $desktop-width) {
+    margin-top: 9px;
+
     .logo {
-      min-width: 149px;
+      height: 72px;
+      min-width: 170px;
       min-height: 72px;
-      margin: 7px 0;
+      margin: 0;
     }
   }
 }

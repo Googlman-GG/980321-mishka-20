@@ -1,0 +1,17 @@
+.main-nav__info {
+  display: none;
+  grid-area: info;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $tablet-width)  {
+    padding-right: 50px;
+  }
+}

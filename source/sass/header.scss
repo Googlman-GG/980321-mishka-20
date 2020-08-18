@@ -1,0 +1,22 @@
+.page-header {
+  display: grid;
+  position: relative;
+  grid-template:
+    "logo" 80px
+    "navig" auto
+    "actions" auto / 1fr;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 20px;
+    grid-template:
+      "logo actions" auto
+      "navig info" auto / 1fr 1fr;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 50px;
+    grid-template:
+      "navig logo actions" 90px
+      "links logo info" 90px / 1fr 150px 1fr;
+  }
+}
