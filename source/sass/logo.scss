@@ -1,6 +1,4 @@
 .page-header__logo {
-  min-width: 150px;
-
   @media (min-width: $tablet-width) {
     border: 1px solid grey;
     border-right: none;
@@ -8,14 +6,13 @@
 
   @media (min-width: $desktop-width) {
     border: none;
-    border-right: none;
   }
 }
 
 .logo-picture {
   grid-area: logo;
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   margin: 22px 0;
 
@@ -31,6 +28,7 @@
 
   @media (min-width: $desktop-width) {
     margin-top: 9px;
+    justify-content: center;
 
     .logo {
       height: 72px;

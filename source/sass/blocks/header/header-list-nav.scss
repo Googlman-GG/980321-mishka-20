@@ -2,7 +2,6 @@
   grid-area: navig;
 
   @media (min-width: $tablet-width) {
-    padding: 40px 0;
     display: flex;
     justify-content: space-around;
   }

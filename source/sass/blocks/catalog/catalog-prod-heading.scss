@@ -1,0 +1,21 @@
+.product__name {
+  max-width: 250px;
+  font-size: 20px;
+  line-height: 24px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.product__description {
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: normal;
+
+  @media (min-width: $tablet-width) {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}

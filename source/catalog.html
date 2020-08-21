@@ -68,13 +68,19 @@
       <div class="main-catalog__wrapp">
         <div class="main-catalog__item">
           <figure class="main-catalog__figure">
-            <img class="product__image" src="img/photo-hare-mobile@1x.jpg" alt="Зайчик-попрыгайчик" width="260" height="195">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/photo-hare-desktop@1x.jpg">
+              <source media="(min-width: 768px)" srcset="img/photo-hare-tablet@1x.jpg">
+              <img class="main-product__image" src="img/photo-hare-mobile@1x.jpg" alt="Игрушка для ребенка ручной работы" width="260" height="195">
+            </picture>
             <figcaption class="product__figcaption">
-              <p class="product__name">Зайчик-попрыгайчик</p>
-              <p class="product__description">Рост 30 см, вес 200 г</p>
+              <div class="product__heading-wrapp">
+                <p class="product__name">Зайчик-попрыгайчик</p>
+                <p class="product__description">Рост 30 см, вес 200 г</p>
+              </div>
               <div class="product__border"></div>
               <div class="product__details">
-                <div class="item__price">1 200 руб.</div>
+                <div class="product__price">1 200 руб.</div>
                 <button class="product__btn">
                   <span class="visually-hidden">Добавить в корзину</span>
                   <svg class="product__svg" xmlns="http://www.w3.org/2000/svg" width="20.3" height="18.8" viewBox="264.2 371 20.3 18.8"><path d="M283.8 378.2h-3.2l-3.4-6.8a.7.7 0 10-1.3.6l3 6.2h-9.1l3-6.2a.7.7 0 00-1.3-.6l-3.4 6.8H265a.8.8 0 000 1.5h.1l.9 3c-.2.1-.3.3-.3.6 0 .4.3.7.7.7l1.6 5.8h12.7l1.7-5.8c.3 0 .7-.3.7-.7 0-.3-.2-.5-.4-.6l.9-3h.2a.8.8 0 100-1.5zm-4.2 10.1H269L268 384h12.9l-1.2 4.3zm1.6-5.8h-13.7l-.8-2.8H282l-.8 2.8z"/></svg>
@@ -85,37 +91,49 @@
         </div>
         <div class="main-catalog__item">
           <figure class="main-catalog__figure">
-            <img class="product__image" src="img/photo-bowl-mobile@1x.jpg" alt="Корзинка для белья" width="260" height="195">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/photo-bowl-desktop@1x.jpg">
+              <source media="(min-width: 768px)" srcset="img/photo-bowl-tablet@1x.jpg">
+              <img class="main-product__image" src="img/photo-bowl-mobile@1x.jpg" alt="Вещь которая поможет держать в одном месте ваше белье" width="260" height="195">
+            </picture>
             <figcaption class="product__figcaption">
-              <p class="product__name">Корзинка для белья</p>
-              <p class="product__description">Диаметр 15 см, высота 10 см</p>
+              <div class="product__heading-wrapp">
+                <p class="product__name">Корзинка для белья</p>
+                <p class="product__description">Корзинка для белья</p>
+              </div>
+              <div class="product__border"></div>
+              <div class="product__details">
+                <div class="product__price">690 руб.</div>
+                <button class="product__btn">
+                  <span class="visually-hidden">Добавить в корзину</span>
+                  <svg class="product__svg" xmlns="http://www.w3.org/2000/svg" width="20.3" height="18.8" viewBox="264.2 371 20.3 18.8"><path d="M283.8 378.2h-3.2l-3.4-6.8a.7.7 0 10-1.3.6l3 6.2h-9.1l3-6.2a.7.7 0 00-1.3-.6l-3.4 6.8H265a.8.8 0 000 1.5h.1l.9 3c-.2.1-.3.3-.3.6 0 .4.3.7.7.7l1.6 5.8h12.7l1.7-5.8c.3 0 .7-.3.7-.7 0-.3-.2-.5-.4-.6l.9-3h.2a.8.8 0 100-1.5zm-4.2 10.1H269L268 384h12.9l-1.2 4.3zm1.6-5.8h-13.7l-.8-2.8H282l-.8 2.8z"/></svg>
+                </button>
+              </div>
             </figcaption>
           </figure>
-          <div class="product__border"></div>
-          <div class="product__details">
-            <div class="item__price">690 руб.</div>
-          <button class="product__btn">
-            <span class="visually-hidden">Добавить в корзину</span>
-            <svg class="product__svg" xmlns="http://www.w3.org/2000/svg" width="20.3" height="18.8" viewBox="264.2 371 20.3 18.8"><path d="M283.8 378.2h-3.2l-3.4-6.8a.7.7 0 10-1.3.6l3 6.2h-9.1l3-6.2a.7.7 0 00-1.3-.6l-3.4 6.8H265a.8.8 0 000 1.5h.1l.9 3c-.2.1-.3.3-.3.6 0 .4.3.7.7.7l1.6 5.8h12.7l1.7-5.8c.3 0 .7-.3.7-.7 0-.3-.2-.5-.4-.6l.9-3h.2a.8.8 0 100-1.5zm-4.2 10.1H269L268 384h12.9l-1.2 4.3zm1.6-5.8h-13.7l-.8-2.8H282l-.8 2.8z"/></svg>
-          </button>
-          </div>
         </div>
         <div class="main-catalog__item">
           <figure class="main-catalog__figure">
-            <img class="product__image" src="img/photo-toys-mobile@1x.jpg" alt="Большая корзинка для игрушек" width="260" height="195">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/photo-toys-desktop@1x.jpg">
+              <source media="(min-width: 768px)" srcset="img/photo-toys-tablet@1x.jpg">
+              <img class="main-product__image" src="img/photo-toys-mobile@1x.jpg" alt="Корзинка для украшения интерьера и порядка в доме" width="260" height="195">
+            </picture>
             <figcaption class="product__figcaption">
-              <p class="product__name">Большая корзинка для игрушек</p>
-              <p class="product__description">Диаметр 30 см, высота 30 см</p>
+              <div class="product__heading-wrapp">
+                <p class="product__name">Большая корзинка для игрушек</p>
+                <p class="product__description">Диаметр 30 см, высота 30 см</p>
+              </div>
+              <div class="product__border"></div>
+              <div class="product__details">
+                <div class="product__price">1 500 руб.</div>
+                <button class="product__btn">
+                  <span class="visually-hidden">Добавить в корзину</span>
+                  <svg class="product__svg" xmlns="http://www.w3.org/2000/svg" width="20.3" height="18.8" viewBox="264.2 371 20.3 18.8"><path d="M283.8 378.2h-3.2l-3.4-6.8a.7.7 0 10-1.3.6l3 6.2h-9.1l3-6.2a.7.7 0 00-1.3-.6l-3.4 6.8H265a.8.8 0 000 1.5h.1l.9 3c-.2.1-.3.3-.3.6 0 .4.3.7.7.7l1.6 5.8h12.7l1.7-5.8c.3 0 .7-.3.7-.7 0-.3-.2-.5-.4-.6l.9-3h.2a.8.8 0 100-1.5zm-4.2 10.1H269L268 384h12.9l-1.2 4.3zm1.6-5.8h-13.7l-.8-2.8H282l-.8 2.8z"/></svg>
+                </button>
+              </div>
             </figcaption>
           </figure>
-          <div class="product__border"></div>
-          <div class="product__details">
-            <div class="item__price">1 500 руб.</div>
-          <button class="product__btn">
-            <span class="visually-hidden">Добавить в корзину</span>
-            <svg class="product__svg" xmlns="http://www.w3.org/2000/svg" width="20.3" height="18.8" viewBox="264.2 371 20.3 18.8"><path d="M283.8 378.2h-3.2l-3.4-6.8a.7.7 0 10-1.3.6l3 6.2h-9.1l3-6.2a.7.7 0 00-1.3-.6l-3.4 6.8H265a.8.8 0 000 1.5h.1l.9 3c-.2.1-.3.3-.3.6 0 .4.3.7.7.7l1.6 5.8h12.7l1.7-5.8c.3 0 .7-.3.7-.7 0-.3-.2-.5-.4-.6l.9-3h.2a.8.8 0 100-1.5zm-4.2 10.1H269L268 384h12.9l-1.2 4.3zm1.6-5.8h-13.7l-.8-2.8H282l-.8 2.8z"/></svg>
-          </button>
-          </div>
         </div>
       </div>
       <div class="main__video">

@@ -1,6 +1,15 @@
 .product-wrapp {
   @media (min-width: $tablet-width) {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template:
+      "a" 265px
+      "b" auto
+      "c" auto;
+
+    @media (min-width: $tablet-width) {
+      grid-template:
+        "a b" 38vw
+        "c b" auto / 1fr 1fr;
+    }
   }
 }

@@ -1,13 +1,21 @@
 .main-catalog__figure {
   margin: 0;
-}
 
-@media (min-width: $tablet-width) {
-  .main-catalog__figure {
+  @media (min-width: $tablet-width) {
     display: flex;
   }
 
-  .product__figcaption {
-    flex-grow: 1;
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
+}
+
+.product__figcaption {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 35px;
   }
 }
