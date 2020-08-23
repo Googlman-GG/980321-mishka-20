@@ -4,3 +4,9 @@
   justify-content: space-between;
   list-style: none;
 }
+
+.footer-page__item {
+  @media (min-width: $tablet-width) {
+    margin: 0 40px;
+  }
+}

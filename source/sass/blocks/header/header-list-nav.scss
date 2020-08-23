@@ -1,0 +1,8 @@
+.list__nav {
+  grid-area: navig;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-around;
+  }
+}

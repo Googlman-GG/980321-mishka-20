@@ -6,6 +6,12 @@
   margin-top: 30px;
   font-size: 25px;
   line-height: 30px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    font-size: 43px;
+    line-height: 50px;
+  }
 }
 
 .menu-top__description {
@@ -13,9 +19,17 @@
   font-size: 17px;
   line-height: 20px;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    font-size: 17px;
+    line-height: 17px;
+    max-width: 100px;
+    text-align: center;
+  }
 }
 
-.menu-product__description {
+.menu-product__info {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 24px;

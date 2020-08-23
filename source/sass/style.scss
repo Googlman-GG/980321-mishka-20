@@ -10,10 +10,12 @@ html {
 
 body {
   min-width: 320px;
+  max-width: 1300px;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 
-$desktop-width: 1200px;
+$desktop-width: 1150px;
 $tablet-width: 768px;
 $mobile-width-only: 767px;
 
@@ -22,33 +24,53 @@ $mobile-width-only: 767px;
 @import "fonts.scss";
 @import "buttons.scss";
 @import "burger.scss";
+@import "header.scss";
+//header
+@import "blocks/header/header-list-nav.scss";
+@import "blocks/header/header-list-nav-item.scss";
+@import "blocks/header/header-list-action.scss";
 //index.html
-@import "blocks/index/index-nav.scss";
 @import "blocks/index/index-toggle.scss";
-@import "blocks/index/index-nav-wrapp.scss";
+@import "blocks/index/index-list-container.scss";
 @import "blocks/index/index-nav-list.scss";
 @import "blocks/index/index-nav-search.scss";
+@import "blocks/index/index-nav-search-item.scss";
 @import "blocks/index/index-nav-basked.scss";
+@import "blocks/index/index-nav-basked-item.scss";
+@import "blocks/index/index-nav-links.scss";
+@import "blocks/index/index-nav-info.scss";
 @import "blocks/index/index-heading.scss";
+@import "blocks/index/index-dept-container.scss";
 @import "blocks/index/index-heading-images.scss";
+@import "blocks/index/index-product-heading.scss";
 @import "blocks/index/index-product.scss";
+@import "blocks/index/index-product-wrapp.scss";
+@import "blocks/index/index-product-info.scss";
 @import "blocks/index/index-product-list.scss";
-@import "blocks/index/index-figure.scss";
+@import "blocks/index/index-prod-image.scss";
+@import "blocks/index/index-order.scss";
 @import "blocks/index/index-about.scss";
 @import "blocks/index/index-about-list.scss";
+@import "blocks/index/index-about-item.scss";
 @import "blocks/index/index-reviews.scss";
+@import "blocks/index/index-reviews-title.scss";
 @import "blocks/index/index-reviews-blockquote.scss";
 @import "blocks/index/index-reviews-author.scss";
 @import "blocks/index/index-reviews-buttons.scss";
+@import "blocks/index/index-reviews-write.scss";
 @import "blocks/index/index-contacts.scss";
+@import "blocks/index/index-contacts-heading.scss";
 @import "blocks/index/index-contacts-list.scss";
 @import "blocks/index/index-contacts-list-item.scss";
+@import "blocks/index/index-contacts-map-poicture.scss";
 @import "blocks/index/index-contacts-map.scss";
 //catalog.html
 @import "blocks/catalog/catalog-heading.scss";
 @import "blocks/catalog/catalog-main.scss";
 @import "blocks/catalog/catalog-figure.scss";
 @import "blocks/catalog/catalog-figcaption.scss";
+@import "blocks/catalog/catalog-image.scss";
+@import "blocks/catalog/catalog-prod-heading.scss";
 @import "blocks/catalog/catalog-product-buttons.scss";
 //form
 @import "blocks/form/form-form.scss";
@@ -69,6 +91,13 @@ $mobile-width-only: 767px;
 @import "blocks/form/form-button.scss";
 //footer
 @import "blocks/footer/footer.scss";
+@import "blocks/footer/footer-logo.scss";
 @import "blocks/footer/footer-social.scss";
 @import "blocks/footer/footer-developer.scss";
 @import "blocks/footer/footer-developer-link.scss";
+//modal
+@import "blocks/modal/modal.scss";
+@import "blocks/modal/modal-heading.scss";
+@import "blocks/modal/modal-element.scss";
+@import "blocks/modal/modal-button.scss";
+@import "blocks/modal/modal-close.scss";

@@ -1,15 +1,12 @@
-.reviews__title {
-  padding: 30px;
-  padding-bottom: 0;
-}
+.reviews {
+  display: flex;
+  flex-direction: column;
 
-.reviews__write {
-  width: 260px;
-  padding: 16px 0;
-  margin: 0 auto;
-  margin-top: 38px;
-  display: block;
-  color: $black;
-  text-align: center;
-  text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 30px 20px;
+    background-image: url("../img/review@1x.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
 }
