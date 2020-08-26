@@ -1,19 +1,15 @@
 //Анимация кнопки
-.ham {
+.burger {
   cursor: pointer;
   transition: transform 400ms;
   user-select: none;
 }
 
-.hamRotate.active {
+.burger.burger--active {
   transform: rotate(45deg);
 }
 
-.hamRotate180.active {
-  transform: rotate(180deg);
-}
-
-.line {
+.burger--line {
   fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
   stroke: $black;
@@ -21,18 +17,18 @@
   stroke-linecap: round;
 }
 
-.ham1 .top {
+.burger .align--top {
   stroke-dasharray: 40 139;
 }
 
-.ham1 .bottom {
+.burger .align--bottom {
   stroke-dasharray: 40 180;
 }
 
-.ham1.active .top {
+.burger.burger--active .align--top {
   stroke-dashoffset: -98px;
 }
 
-.ham1.active .bottom {
+.burger.burger--active .align--bottom {
   stroke-dashoffset: -138px;
 }

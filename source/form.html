@@ -19,10 +19,10 @@
       </a>
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
-        <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="36" onclick="this.classList.toggle('active')">
-          <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-          <path class="line middle" d="m 30,50 h 40" />
-          <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+        <svg class="burger" viewBox="0 0 100 100" width="36" onclick="this.classList.toggle('burger--active')">
+          <path class="burger--line align--top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+          <path class="burger--line align--middle" d="m 30,50 h 40" />
+          <path class="burger--line align--bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
         </svg>
       </button>
       <ul class="main-nav__list list__nav">
@@ -125,19 +125,19 @@
             </label>
           </fieldset>
           <fieldset class="form-details">
-            <label>
-              <span class="input-label__details">тел</span>
+
+            <label class="fieldset fieldset--label">
+              <span class="fieldset__legend">тел</span>
               <input class="input-details" type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX*" required>
             </label>
-            <label>
-              <span class="input-label__details">Email</span>
-              <input class="input-details" type="email" name="email" placeholder="Ваш Email*" required>
+            <label class="fieldset fieldset--label">
+              <span class="fieldset__legend">e-mail</span>
+              <input class="input-details"  type="email" placeholder="Ваш Email*"/>
             </label>
-            <label>
-              <span class="input-label__details">Доп</span>
+            <label class="fieldset fieldset--label">
+              <span class="fieldset__legend">доп</span>
               <textarea class="textarea-field" name="note" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
             </label>
-          </fieldset>
           <span class="form__description">
             *Поля обязательны для заполнения
           </span>
