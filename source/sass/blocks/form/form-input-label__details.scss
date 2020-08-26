@@ -25,7 +25,7 @@
 .fieldset__legend {
   text-transform: uppercase;
   padding: 0 16px 0 0;
-  background: #fff;
+  background: $black;
   font-weight: bold;
   font-size: 17px;
   line-height: 16px;
@@ -39,18 +39,16 @@
   line-height: 18px;
 }
 
-
-
 .input-name {
   padding: 16px 0;
   border: 0;
-  box-shadow: inset 0px -2px 0px #000000;
+  box-shadow: inset 0 -2px 0 $black;
   outline: none;
 }
 
 .input-name:hover,
 .input-name:focus {
-  box-shadow: inset 0px -2px 0px #62d1ba;
+  box-shadow: inset 0 -2px 0 $green;
 }
 
 .input-details {
