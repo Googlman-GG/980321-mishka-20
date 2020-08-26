@@ -1,8 +1,10 @@
-.main-product__image {
-  width: 100%;
-  height: auto;
-
+.menu-product__picture {
   @media (min-width: $tablet-width) {
     grid-area: b;
   }
+}
+
+.main-product__image {
+  width: 100%;
+  height: auto;
 }

@@ -8,7 +8,7 @@
 
     @media (min-width: $tablet-width) {
       grid-template:
-        "a b" 38vw
+        "a b" 290px
         "c b" auto / 1fr 1fr;
     }
   }
