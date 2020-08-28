@@ -1,0 +1,16 @@
+.video__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-heading__svg {
+  margin: 25px;
+  fill: $green;
+}
+
+.video-heading__text {
+  font-size: 17px;
+  line-height: 24px;
+  max-width: 157px;
+}

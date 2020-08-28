@@ -3,6 +3,12 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
+    align-items: center;
     justify-content: space-around;
+  }
+
+  @media (min-width: $desktop-width) {
+    border: 1px solid $border;
+    border-right: none;
   }
 }
