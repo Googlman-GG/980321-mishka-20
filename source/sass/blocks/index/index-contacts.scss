@@ -1,14 +1,15 @@
 .contacts__heading {
   padding: 30px;
-}
+  font-size: 18px;
+  line-height: 30px;
 
-.contacts__button {
-  width: 260px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 39px;
-  margin-top: 39px;
-  color: $black;
-  text-align: center;
-  text-decoration: none;
+  @media (min-width: $tablet-width) {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 53px;
+    line-height: 57px;
+  }
 }

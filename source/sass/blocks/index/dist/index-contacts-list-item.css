@@ -1,9 +1,5 @@
 .contacts__item {
   display: flex;
-
-  @media (min-width: $desktop-width) {
-    width: 350px;
-  }
 }
 
 .contacts-container {

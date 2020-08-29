@@ -58,12 +58,17 @@ $mobile-width-only: 767px;
 @import "blocks/index/index-reviews-author.scss";
 @import "blocks/index/index-reviews-buttons.scss";
 @import "blocks/index/index-reviews-write.scss";
+@import "blocks/index/index-contacts-wrapp.scss";
 @import "blocks/index/index-contacts.scss";
 @import "blocks/index/index-contacts-heading.scss";
 @import "blocks/index/index-contacts-list.scss";
 @import "blocks/index/index-contacts-list-item.scss";
+@import "blocks/index/index-contacts-link.scss";
+@import "blocks/index/index-contacts-list-email.scss";
+@import "blocks/index/index-contacts-list-address.scss";
 @import "blocks/index/index-contacts-map-poicture.scss";
 @import "blocks/index/index-contacts-map.scss";
+@import "blocks/index/index-contacts-button.scss";
 //catalog.html
 @import "blocks/catalog/catalog-heading.scss";
 @import "blocks/catalog/catalog-main.scss";
@@ -78,6 +83,7 @@ $mobile-width-only: 767px;
 @import "blocks/catalog/catalog-video-paragraph.scss";
 @import "blocks/catalog/catalog-video-button.scss";
 //form
+@import "blocks/form/main-form.scss";
 @import "blocks/form/form-form.scss";
 @import "blocks/form/form-heading.scss";
 @import "blocks/form/form-details.scss";
