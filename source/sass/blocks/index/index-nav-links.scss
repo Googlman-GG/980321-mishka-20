@@ -3,6 +3,7 @@
   display: none;
   grid-area: links;
   list-style: none;
+  z-index: 1;
 
   @media (min-width: $desktop-width) {
     display: flex;

@@ -1,6 +1,7 @@
 .main-nav__item {
   display: flex;
   padding: 30px 70px;
+  z-index: 1;
   text-align: center;
   box-shadow: 0 1px 0 $box-shadow, inset 0 1px 0 $box-shadow;
 

@@ -1,0 +1,21 @@
+.menu-wrapp {
+  position: relative;
+
+  &::after {
+    @media (min-width: $tablet-width) {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      height: 24px;
+      width: 100%;
+      background: url("../img/bg-zigzag-fill.svg") repeat no-repeat;
+      background-size: contain;
+    }
+
+    @media (min-width: $desktop-width) {
+      height: 50px;
+      bottom: -30px;
+    }
+  }
+}

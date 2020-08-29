@@ -1,12 +1,14 @@
 .main-catalog__wrapp {
   padding: 0 30px;
+  margin: 0 auto;
+  max-width: 1150px;
 
   @media (min-width: $tablet-width) {
     padding: 0 50px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0 30px;
+    padding: 0 20px;
     display: flex;
     justify-content: space-around;
   }
