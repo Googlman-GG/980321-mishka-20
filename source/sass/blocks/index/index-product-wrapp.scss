@@ -11,5 +11,13 @@
         "a b" 290px
         "c b" auto / 1fr 1fr;
     }
+
+    @media (min-width: $desktop-width) {
+      position: relative;
+      grid-template:
+        "d b" 150px
+        "a b" 290px
+        "c b" auto / 1fr 1fr;
+    }
   }
 }

@@ -1,7 +1,24 @@
-@media (min-width: $tablet-width) {
-  .main-top__product-heading {
+.main-top__product-heading {
+  grid-area: d;
+
+  @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 107px;
+    z-index: 1;
+  }
+}
+
+.menu-top__description {
+  @media (min-width: $desktop-width) {
+    order: -1;
+    padding-right: 150px;
   }
 }
