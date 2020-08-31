@@ -1,15 +1,27 @@
 .form-checkbox {
   border: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   border-top: 1px solid $green;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    background-color: $bg-footer;
+  }
 }
 
 .form-checkbox__legend {
-  padding: 0 16px 0 0;
-  padding-left: 26px;
+  padding: 0 16px 0 26px;
   font-size: 17px;
   line-height: 16px;
   color: $green;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    position: absolute;
+    left: -15%;
+    top: 20px;
+  }
 }
