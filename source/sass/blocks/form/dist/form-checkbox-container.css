@@ -1,6 +1,0 @@
-@media (min-width: t) {
-  .form-checkbox__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}

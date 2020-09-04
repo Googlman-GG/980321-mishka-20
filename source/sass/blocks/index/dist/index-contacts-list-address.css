@@ -1,3 +1,3 @@
-.contacts--email {
-  grid-area: email;
+.contacts__item--address {
+  grid-area: address;
 }

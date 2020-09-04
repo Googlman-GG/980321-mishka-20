@@ -110,32 +110,37 @@
               <span class="label-checkbox">Оранжевый</span>
               </label>
             </div>
-
           </fieldset>
           <fieldset class="form-name">
-            <legend class="form-name__legend">фио</legend>
-            <label class="input-name__label">
-              <span class="input-label">Имя:</span>
-              <input class="input-name" type="text" name="name" placeholder="Введите ваше имя*" required>
-            </label>
-            <label class="input-name__label">
-              <span class="input-label">Фамилия:</span>
-              <input class="input-name" type="text" name="surname" placeholder="Укажите фамилию*" required>
-            </label>
-            <label class="input-name__label">
-              <span class="input-label">Отчество:</span>
-              <input class="input-name" type="text" name="patronymic" placeholder="Отчество, если желаете">
-            </label>
+            <div class="form-name__container">
+              <legend class="form-name__legend">фио</legend>
+              <label class="input-name__label">
+                <span class="input-label">Имя:</span>
+                <input class="input-name" type="text" name="name" placeholder="Введите ваше имя*" required>
+              </label>
+              <label class="input-name__label">
+                <span class="input-label">Фамилия:</span>
+                <input class="input-name" type="text" name="surname" placeholder="Укажите фамилию*" required>
+              </label>
+              <label class="input-name__label">
+                <span class="input-label">Отчество:</span>
+                <input class="input-name" type="text" name="patronymic" placeholder="Отчество, если желаете">
+              </label>
+            </div>
           </fieldset>
           <fieldset class="form-details">
-            <label class="fieldset fieldset--label">
-              <span class="fieldset__legend">тел</span>
-              <input class="input-details" type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX*" required>
-            </label>
-            <label class="fieldset fieldset--label">
-              <span class="fieldset__legend">e-mail</span>
-              <input class="input-details"  type="email" placeholder="Ваш Email*"/>
-            </label>
+            <div class="form-details__wrap">
+              <div class="form-details__continer">
+                <label class="fieldset fieldset--label">
+                  <span class="fieldset__legend">тел</span>
+                  <input class="input-details" type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX*" required>
+                </label>
+                <label class="fieldset fieldset--label">
+                  <span class="fieldset__legend">e-mail</span>
+                  <input class="input-details"  type="email" placeholder="Ваш Email*"/>
+                </label>
+              </div>
+            </div>
             <label class="fieldset fieldset--label">
               <span class="fieldset__legend">доп</span>
               <textarea class="textarea-field" name="note" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>

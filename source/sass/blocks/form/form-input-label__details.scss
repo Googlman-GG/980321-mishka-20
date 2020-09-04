@@ -1,25 +1,20 @@
-.form {
-  padding: 0 30px;
-}
-
 .fieldset {
   display: block;
   margin: 24px 0 0;
   padding: 0;
   border: 0;
-  border-top: 1px solid #62d1ba;
+  border-top: 1px solid $green;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
 }
 
 .fieldset--label {
-  margin-top: calc(24px + 0.5rem);
+  margin-top: 32px;
   position: relative;
   display: flex;
   flex-direction: column;
-}
-
-.fieldset--label span {
-  position: absolute;
-  top: -0.5rem;
 }
 
 .fieldset__legend {
@@ -31,13 +26,14 @@
   line-height: 16px;
   color: $green;
   background-color: $white;
-}
+  position: absolute;
+  top: -8px;
 
-.fieldset__field {
-  display: flex;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 18px;
+  @media (min-width: $tablet-width) {
+    top: 10px;
+    left: -90px;
+    background-color: $bg-footer;
+  }
 }
 
 .input-name {
@@ -54,4 +50,14 @@
 
 .input-details {
   margin: 30px 0;
+
+  @media (min-width: $tablet-width) {
+    min-width: 500px;
+    margin: 0 auto;
+    background-color: $bg-footer;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 700px;
+  }
 }

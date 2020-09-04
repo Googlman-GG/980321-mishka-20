@@ -2,6 +2,7 @@
   max-width: 1150px;
   padding: 75px 0;
   margin: 0 auto;
+  position: relative;
   text-align: center;
   background-color: $bg-footer;
 
@@ -9,16 +10,31 @@
   @media (min-width: $tablet-width) {
     margin-top: -80px;
     padding: 95px 0;
-    text-align: center;
-    background-image: url("../img/bg-zigzag-fill.svg");
-    background-position: center bottom;
-    background-repeat: repeat-x;
+
+    &::after {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 24px;
+      width: 100%;
+      background: url("../img/bg-zigzag-fill.svg") repeat no-repeat;
+      background-size: contain;
+    }
   }
 
   @media (min-width: $desktop-width) {
     margin-top: -90px;
-    background-image: url("../img/bg-zigzag-fill.svg");
-  }
+    &::after {
+      content: "";
+
+      height: 34px;
+
+    }
+}
 }
 
 .catalog-header__heading {
