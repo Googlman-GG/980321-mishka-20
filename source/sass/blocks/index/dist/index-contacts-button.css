@@ -1,8 +1,0 @@
-.contacts__button {
-  grid-area: button;
-}
-@media (min-width) {
-  .contacts__button {
-    margin: 0 auto;
-  }
-}

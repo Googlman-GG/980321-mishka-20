@@ -28,13 +28,11 @@
 
   @media (min-width: $desktop-width) {
     margin-top: -90px;
+
     &::after {
-      content: "";
-
       height: 34px;
-
     }
-}
+  }
 }
 
 .catalog-header__heading {

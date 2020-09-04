@@ -1,0 +1,9 @@
+.video__bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    grid-area: descr;
+  }
+}

@@ -1,6 +1,24 @@
 .main__video {
-  display: grid;
+  max-width: 1050px;
   margin: 0 30px;
   text-align: start;
   border: 1px solid $border;
+
+  @media (min-width: $tablet-width) {
+
+
+    display: grid;
+    grid-template:
+      "video" auto
+      "v-head" auto
+      "descr" auto / 1fr;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    margin: 0 auto;
+    grid-template:
+      "video v-head" auto
+      "video descr" auto / 1fr;
+  }
 }
