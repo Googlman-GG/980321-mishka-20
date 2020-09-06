@@ -19,6 +19,6 @@
     margin: 0 auto;
     grid-template:
       "video v-head" auto
-      "video descr" auto / 1fr;
+      "video descr" auto / 2fr 1fr;
   }
 }

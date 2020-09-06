@@ -2,14 +2,14 @@
   display: flex;
   align-items: center;
 
+  &:hover .main-nav__icon-search {
+    opacity: 1;
+    fill: $green;
+  }
+
   @media (min-width: $tablet-width) {
     border-left: 1px solid $border;
     border-right: 1px solid $border;
-
-    &:hover {
-      opacity: 1;
-      fill: $green;
-    }
   }
 }
 
@@ -17,7 +17,7 @@
   left: 30px;
   position: absolute;
   opacity: 0.2;
-  fill: $black;
+
 
   @media (min-width: $tablet-width) {
     left: 0;

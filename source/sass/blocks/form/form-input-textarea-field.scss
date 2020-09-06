@@ -1,5 +1,15 @@
+.fieldset__bottom-container {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+}
+
 .textarea-field {
-  min-width: 260px;
+  width: 70%;
+  margin-left: auto;
   min-height: 142px;
   margin-top: 20px;
   border: 2px solid $black;
