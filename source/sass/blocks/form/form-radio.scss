@@ -1,6 +1,5 @@
 .form-radio {
   border: none;
-  padding: 0;
   margin: 0 auto;
   position: relative;
   border-top: 1px solid $green;
@@ -12,15 +11,21 @@
 }
 
 .form-radio__legend {
-  padding: 0 16px 0 0;
+
+  text-transform: uppercase;
+  padding: 0 16px 0 20px;
+  background: $black;
+  font-weight: bold;
   font-size: 17px;
   line-height: 16px;
   color: $green;
-  text-transform: uppercase;
+  background-color: $white;
+  position: absolute;
+  top: -10px;
+  left: 0;
 
   @media (min-width: $tablet-width) {
-    position: absolute;
-    left: -20%;
-    top: 20px;
+    left: -90px;
+    top: 30px;
   }
 }

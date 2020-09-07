@@ -1,14 +1,49 @@
 .fieldset__bottom-container {
+  margin: 24px 0 ;
+  border: none;
+}
+.fieldset--textarea {
+  padding: 20px 0;
+  position: relative;
+  border: 0;
+  border-top: 1px solid $green;
+
   @media (min-width: $tablet-width) {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
+    padding: 0;
+    min-width: 500px;
+    left: 60px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 160px;
+    min-width: 700px;
+  }
+}
+
+.fieldset__textarea {
+  text-transform: uppercase;
+  padding: 0 16px 0 0;
+  background: $black;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  color: $green;
+  background-color: $white;
+  position: absolute;
+  top: -10px;
+  left: 0;
+
+  @media (min-width: $tablet-width) {
+    left: -90px;
+    top: 30px;
   }
 }
 
 .textarea-field {
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   min-height: 142px;
   margin-top: 20px;
