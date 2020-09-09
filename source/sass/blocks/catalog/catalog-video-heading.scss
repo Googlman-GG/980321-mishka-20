@@ -1,7 +1,12 @@
 .video__heading {
+
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    grid-area: v-head;
+  }
 }
 
 .video-heading__svg {

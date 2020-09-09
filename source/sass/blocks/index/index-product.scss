@@ -1,5 +1,32 @@
 .menu-top__product {
   padding: 0 30px;
+  margin: 0 auto;
+  max-width: 1150px;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    width: 100%;
+    background: url("../img/bg-zigzag-line.svg") repeat no-repeat;
+    background-size: contain;
+
+    @media (min-width: $tablet-width) {
+      height: 17px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 1050px;
+      height: 23px;
+      bottom: -30px;
+    }
+  }
 }
 
 .menu-product__heading {
@@ -30,7 +57,7 @@
 }
 
 .menu-product__info {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Open-Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 24px;
 }
@@ -44,4 +71,8 @@
   display: block;
   margin: 0 auto;
   width: 260px;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 50px;
+  }
 }

@@ -1,4 +1,14 @@
+.contacts__item {
+  display: flex;
+
+  @media (min-width: $desktop-width) {
+    width: 350px;
+  }
+}
+
 .contacts-container {
+  margin: 0 25px;
   display: block;
-  min-width: 70px;
+  max-width: 200px;
+  min-width: 50px;
 }

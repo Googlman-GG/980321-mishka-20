@@ -2,8 +2,12 @@
   display: flex;
   align-items: center;
 
+  &:hover .main-nav__icon-search {
+    opacity: 1;
+    fill: $green;
+  }
+
   @media (min-width: $tablet-width) {
-    padding: 0 35px;
     border-left: 1px solid $border;
     border-right: 1px solid $border;
   }
@@ -14,8 +18,10 @@
   position: absolute;
   opacity: 0.2;
 
+
   @media (min-width: $tablet-width) {
     left: 0;
+    margin: 20px 30px;
     position: relative;
   }
 }

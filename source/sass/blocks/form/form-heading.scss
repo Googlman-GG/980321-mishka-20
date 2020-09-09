@@ -2,9 +2,49 @@
   padding: 75px 30px;
   text-align: center;
   background-color: $bg-footer;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    margin-top: -80px;
+    padding: 95px 0;
+    text-align: center;
+
+    &::after {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 24px;
+      width: 100%;
+      background: url("../img/bg-zigzag-fill.svg") repeat no-repeat;
+      background-size: contain;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -90px;
+
+    &::after {
+      content: "";
+      height: 34px;
+    }
+  }
 }
 
 .form-header__heading {
   font-size: 27px;
   line-height: 30px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 53px;
+    line-height: 57px;
+  }
 }

@@ -1,0 +1,13 @@
+.form-checkbox__container {
+  @media (min-width: $tablet-width) {
+    max-width: 470px;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

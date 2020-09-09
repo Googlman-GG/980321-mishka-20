@@ -5,6 +5,11 @@
   @media (min-width: $tablet-width) {
     padding: 20px;
   }
+
+  @media (min-width: $desktop-width) {
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .contacts-svg {
@@ -13,5 +18,9 @@
   @media (min-width: $tablet-width) {
     display: block;
     margin-right: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    order: -1;
   }
 }

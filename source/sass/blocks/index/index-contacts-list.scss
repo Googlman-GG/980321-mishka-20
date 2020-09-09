@@ -1,10 +1,28 @@
 .contacts__list {
-  padding: 0 30px;
+  padding: 0 10px;
   list-style: none;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Open-Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 30px;
   color: $smallfont;
-  display: flex;
+  grid-area: list;
+  display: grid;
+  grid-template:
+    "email" auto
+    "address" auto / 1fr 1fr;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 0;
+  }
 }

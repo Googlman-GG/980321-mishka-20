@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>HTML Academy: Мишка</title>
+    <link rel="preload" href="fonts/opensans.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -40,23 +41,23 @@
       <ul class="main-nav__list list__action">
         <li class="main-nav__item main-nav__search">
           <a class="main-nav__link main-nav__text" href="#">
-            <svg class="main-nav__icon-search" xmlns="http://www.w3.org/2000/svg" width="17.6" height="17.6" viewBox="-0.8 -0.8 17.6 17.6"><path fill="#231F20" d="M16.5 15L13 11.4A7.7 7.7 0 006.9-.8a7.7 7.7 0 104.6 13.9l3.4 3.4c.2.2.4.3.8.3.6 0 1.1-.5 1.1-1.1 0-.2 0-.5-.3-.8zM1.4 6.8a5.5 5.5 0 1111 0 5.5 5.5 0 01-11 0z"/></svg>
+            <svg class="main-nav__icon-search" xmlns="http://www.w3.org/2000/svg" width="17.6" height="17.6" viewBox="-0.8 -0.8 17.6 17.6"><path  d="M16.5 15L13 11.4A7.7 7.7 0 006.9-.8a7.7 7.7 0 104.6 13.9l3.4 3.4c.2.2.4.3.8.3.6 0 1.1-.5 1.1-1.1 0-.2 0-.5-.3-.8zM1.4 6.8a5.5 5.5 0 1111 0 5.5 5.5 0 01-11 0z"/></svg>
             <span class="main-nav__action-search">Поиск по сайту</span>
           </a>
         </li>
         <li class="main-nav__item main-nav__basked">
           <a class="main-nav__link main-nav__text" href="#">
-            <svg class="main-nav__icon-basked" xmlns="http://www.w3.org/2000/svg" width="20.3" height="18.8" viewBox="264.2 371 20.3 18.8"><path fill="#231F20" d="M283.8 378.2h-3.2l-3.4-6.8a.7.7 0 10-1.3.6l3 6.2h-9.1l3-6.2a.7.7 0 00-1.3-.6l-3.4 6.8H265a.8.8 0 000 1.5h.1l.9 3c-.2.1-.3.3-.3.6 0 .4.3.7.7.7l1.6 5.8h12.7l1.7-5.8c.3 0 .7-.3.7-.7 0-.3-.2-.5-.4-.6l.9-3h.2a.8.8 0 100-1.5zm-4.2 10.1H269L268 384h12.9l-1.2 4.3zm1.6-5.8h-13.7l-.8-2.8H282l-.8 2.8z"/></svg>
+            <svg class="main-nav__icon-basked" xmlns="http://www.w3.org/2000/svg" width="20.3" height="18.8" viewBox="264.2 371 20.3 18.8"><path d="M283.8 378.2h-3.2l-3.4-6.8a.7.7 0 10-1.3.6l3 6.2h-9.1l3-6.2a.7.7 0 00-1.3-.6l-3.4 6.8H265a.8.8 0 000 1.5h.1l.9 3c-.2.1-.3.3-.3.6 0 .4.3.7.7.7l1.6 5.8h12.7l1.7-5.8c.3 0 .7-.3.7-.7 0-.3-.2-.5-.4-.6l.9-3h.2a.8.8 0 100-1.5zm-4.2 10.1H269L268 384h12.9l-1.2 4.3zm1.6-5.8h-13.7l-.8-2.8H282l-.8 2.8z"/></svg>
             <span class="main-nav__action-item">Корзина: пока пуста</span>
           </a>
         </li>
       </ul>
       <ul class="main-nav__links">
-        <li class="main-nav__links-item">
-          <a class="main-nav__links-link">Новые поступления</a>
+        <li class="main-nav__link-item">
+          <a class="main-nav__link main-nav__text" href="#">Новые поступления</a>
         </li>
-        <li class="main-nav__links-item">
-          <a class="main-nav__links-link">Распродажа</a>
+        <li class="main-nav__link-item">
+          <a class="main-nav__link main-nav__text" href="#">Распродажа</a>
         </li>
       </ul>
       <span class="main-nav__info">Бесплатная доставка по России</span>
@@ -83,68 +84,79 @@
             </label>
           </fieldset>
           <fieldset class="form-checkbox">
-            <legend class="form-checkbox__legend">Цвет</legend>
-            <label class="label-checkbox">
-              <input class="visually-hidden input-checkbox" type="checkbox" name="white" checked>
-              <span class="label-checkbox">Белый</span>
-            </label>
-            <label class="label-checkbox">
-              <input class="visually-hidden input-checkbox" type="checkbox" name="grey" checked>
-              <span class="label-checkbox">Серый</span>
-            </label>
-            <label class="label-checkbox">
-              <input class="visually-hidden input-checkbox" type="checkbox" name="tiffany">
-              <span class="label-checkbox">«Тиффани»</span>
-            </label>
-            <label class="label-checkbox">
-              <input class="visually-hidden input-checkbox" type="checkbox" name="black">
-            <span class="label-checkbox">Черный</span>
-            </label>
-            <label class="label-checkbox">
-              <input class="visually-hidden input-checkbox" type="checkbox" name="pink">
-            <span class="label-checkbox">Розовый</span>
-            </label>
-            <label class="label-checkbox">
-              <input class="visually-hidden input-checkbox" type="checkbox" name="orange">
-            <span class="label-checkbox">Оранжевый</span>
-            </label>
+            <div class="form-checkbox__container">
+              <legend class="form-checkbox__legend">Цвет</legend>
+              <label class="label-checkbox">
+                <input class="visually-hidden input-checkbox" type="checkbox" name="white" checked>
+                <span class="label-checkbox">Белый</span>
+              </label>
+              <label class="label-checkbox">
+                <input class="visually-hidden input-checkbox" type="checkbox" name="grey" checked>
+                <span class="label-checkbox">Серый</span>
+              </label>
+              <label class="label-checkbox">
+                <input class="visually-hidden input-checkbox" type="checkbox" name="tiffany">
+                <span class="label-checkbox">«Тиффани»</span>
+              </label>
+              <label class="label-checkbox">
+                <input class="visually-hidden input-checkbox" type="checkbox" name="black">
+              <span class="label-checkbox">Черный</span>
+              </label>
+              <label class="label-checkbox">
+                <input class="visually-hidden input-checkbox" type="checkbox" name="pink">
+              <span class="label-checkbox">Розовый</span>
+              </label>
+              <label class="label-checkbox">
+                <input class="visually-hidden input-checkbox" type="checkbox" name="orange">
+              <span class="label-checkbox">Оранжевый</span>
+              </label>
+            </div>
           </fieldset>
           <fieldset class="form-name">
-            <legend class="form-name__legend">фио</legend>
-            <label class="input-name__label">
-              <span class="input-label">Имя:</span>
-              <input class="input-name" type="text" name="name" placeholder="Введите ваше имя*" required>
-            </label>
-            <label class="input-name__label">
-              <span class="input-label">Фамилия:</span>
-              <input class="input-name" type="text" name="surname" placeholder="Укажите фамилию*" required>
-            </label>
-            <label class="input-name__label">
-              <span class="input-label">Отчество:</span>
-              <input class="input-name" type="text" name="patronymic" placeholder="Отчество, если желаете">
-            </label>
+            <div class="form-name__container">
+              <legend class="form-name__legend">фио</legend>
+              <label class="input-name__label">
+                <span class="input-label">Имя:</span>
+                <input class="input-name" type="text" name="name" placeholder="Введите ваше имя*" required>
+              </label>
+              <label class="input-name__label">
+                <span class="input-label">Фамилия:</span>
+                <input class="input-name" type="text" name="surname" placeholder="Укажите фамилию*" required>
+              </label>
+              <label class="input-name__label">
+                <span class="input-label">Отчество:</span>
+                <input class="input-name" type="text" name="patronymic" placeholder="Отчество, если желаете">
+              </label>
+            </div>
           </fieldset>
           <fieldset class="form-details">
-
-            <label class="fieldset fieldset--label">
-              <span class="fieldset__legend">тел</span>
-              <input class="input-details" type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX*" required>
-            </label>
-            <label class="fieldset fieldset--label">
-              <span class="fieldset__legend">e-mail</span>
-              <input class="input-details"  type="email" placeholder="Ваш Email*"/>
-            </label>
-            <label class="fieldset fieldset--label">
-              <span class="fieldset__legend">доп</span>
-              <textarea class="textarea-field" name="note" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
-            </label>
-          <span class="form__description">
-            *Поля обязательны для заполнения
-          </span>
-          <div class="form-send__container">
-            <input class="form-send__button button" type="submit" value="отправить заказ">
-          </div>
-      </form>
+            <div class="form-details__wrap">
+              <div class="form-details__continer">
+                <label class="fieldset fieldset--label">
+                  <span class="fieldset__legend">тел</span>
+                  <input class="input-details" type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="+7-XXX-XXX*" required>
+                </label>
+                <label class="fieldset fieldset--label">
+                  <span class="fieldset__legend">e-mail</span>
+                  <input class="input-details"  type="email" placeholder="Ваш Email*"/>
+                </label>
+              </div>
+            </div>
+            <div class="fieldset__bottom-container">
+              <label class="fieldset fieldset--textarea">
+                <span class="fieldset__textarea">доп</span>
+                <textarea class="textarea-field" name="note" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+              </label>
+            </div>
+            <div class="form-buttom__container">
+              <span class="form__description">
+                *Поля обязательны для заполнения
+              </span>
+              <div class="form-send__container">
+                <input class="form-send__button button" type="submit" value="отправить заказ">
+              </div>
+            </div>
+        </form>
     </main>
     <footer class="footer-page">
       <div class="footer-logo">
@@ -178,5 +190,6 @@
       </div>
     </footer>
     <script src="js/app.js"></script>
+    <script src="js/picturefill.js"></script>
   </body>
 </html>

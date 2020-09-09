@@ -1,0 +1,22 @@
+.contacts-picture {
+  grid-area: map;
+
+  &::after {
+    content: "";
+    margin: 0 auto;
+    width: 67px;
+    height: 100px;
+    background: url("../img/icon-map-pin.svg") no-repeat 100%;
+    top: 47%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    display: block;
+
+    @media (min-width: $desktop-width) {
+      top: 35%;
+      right: -52%;
+    }
+  }
+}
