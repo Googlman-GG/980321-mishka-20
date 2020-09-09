@@ -11,4 +11,5 @@ npm-debug.*
 source/sass/*.css
 source/css/*.css
 source/css/*.map
+dist
 Thumbs.db
