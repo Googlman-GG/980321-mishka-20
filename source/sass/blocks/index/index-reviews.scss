@@ -1,12 +1,15 @@
 .reviews {
-  display: flex;
-  flex-direction: column;
   position: relative;
 
   @media (min-width: $tablet-width) {
-    padding: 30px 20px;
+    padding: 50px 30px;
     background-image: url("../img/review@1x.jpg");
     background-position: left center;
     background-repeat: no-repeat;
+    margin-top: 63px;
+    margin-bottom: 95px;
+  }
+  @media (min-width: $desktop-width) {
+    min-width: 975px;
   }
 }
