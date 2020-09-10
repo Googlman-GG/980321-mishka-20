@@ -6,11 +6,11 @@
     display: grid;
     grid-gap: 51px 44px;
     grid-template-columns: 300px 300px;
-    margin-left:70px;
+    margin-left: 70px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 110px;
+    margin-left: 80px;
   }
 }
 

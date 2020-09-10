@@ -6,7 +6,11 @@
   @media (min-width: $tablet-width) {
     position: absolute;
     bottom: 100px;
-    right: 0;
+    right: -40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    right: -70px;
   }
 }
 

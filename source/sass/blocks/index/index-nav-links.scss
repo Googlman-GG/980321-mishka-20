@@ -4,15 +4,12 @@
   grid-area: links;
   list-style: none;
   z-index: 1;
+  padding-left: 45px;
+  padding-right: 80px;
 
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-}
-
-.main-nav__links {
-  padding-left: 45px;
-  padding-right: 80px;
 }

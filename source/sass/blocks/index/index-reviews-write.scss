@@ -5,7 +5,11 @@
     padding: 0;
     position: absolute;
     top: 41px;
-    right: 0;
+    right: -40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    right: -70px;
   }
 }
 
@@ -23,6 +27,5 @@
 
   @media (min-width: $tablet-width) {
     min-width: 175px;
-
   }
 }

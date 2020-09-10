@@ -9,20 +9,21 @@
   grid-area: list;
   display: grid;
   grid-template:
-    "email" auto
-    "address" auto / 1fr 1fr;
+    "email"  auto
+    "address"  auto / 1fr 1fr;
 
   @media (min-width: $tablet-width) {
-    padding: 0 50px;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
   }
 
   @media (min-width: $desktop-width) {
-    justify-content: space-around;
+    padding-top: 20px;
+    justify-content: flex-start;
     align-items: flex-end;
     flex-direction: column;
-    padding: 0;
-    margin-left: 0;
   }
 }

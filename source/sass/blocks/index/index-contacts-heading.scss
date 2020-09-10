@@ -1,14 +1,16 @@
 .contacts-heading__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  position: relative;
 
   @media (min-width: $tablet-width) {
-    padding: 20px;
+    padding-left: 50px;
   }
 
   @media (min-width: $desktop-width) {
-    justify-content: space-around;
-    align-items: center;
+    margin-left: auto;
+    padding-right: 80px;
+    align-items: flex-end;
   }
 }
 
@@ -17,10 +19,11 @@
 
   @media (min-width: $tablet-width) {
     display: block;
-    margin-right: 20px;
+    position: absolute;
+    right: 50px;
   }
 
   @media (min-width: $desktop-width) {
-    order: -1;
+    left: -60px;
   }
 }
