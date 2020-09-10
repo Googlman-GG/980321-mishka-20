@@ -19,6 +19,8 @@
   line-height: 24px;
 
   @media (min-width: $desktop-width) {
+    font-size: 20px;
+    min-width: 155px;
     margin-right: 117px;
   }
 }

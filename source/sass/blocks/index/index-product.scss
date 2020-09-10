@@ -4,6 +4,10 @@
   max-width: 1150px;
   position: relative;
 
+  @media (min-width: $desktop-width) {
+    margin-bottom: 50px;
+  }
+
   &::after {
     content: "";
     display: block;
@@ -24,7 +28,7 @@
     @media (min-width: $desktop-width) {
       width: 1050px;
       height: 23px;
-      bottom: -30px;
+      bottom: -95px;
     }
   }
 }
@@ -38,6 +42,11 @@
     margin: 0;
     font-size: 43px;
     line-height: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 57px;
+    margin-top: 65px;
   }
 }
 
@@ -68,11 +77,15 @@
 }
 
 .menu-prod__button {
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
   display: block;
   margin: 0 auto;
   width: 260px;
 
   @media (min-width: $desktop-width) {
+    min-width: 290px;
     margin-right: 50px;
   }
 }
