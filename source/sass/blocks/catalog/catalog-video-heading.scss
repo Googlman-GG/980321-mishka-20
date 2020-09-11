@@ -1,21 +1,50 @@
 .video__heading {
-
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 
   @media (min-width: $tablet-width) {
+    padding-left: 10px;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 61px;
+
+    align-items: flex-end;
     grid-area: v-head;
   }
 }
 
 .video-heading__svg {
   margin: 25px;
+  margin-bottom: 0;
   fill: $green;
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 16px;
+    left: 37px;
+  }
 }
 
 .video-heading__text {
   font-size: 17px;
   line-height: 24px;
   max-width: 157px;
+
+  @media (min-width: $tablet-width) {
+    max-width: 300px;
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 157px;
+    margin: 25px 0;
+  }
 }

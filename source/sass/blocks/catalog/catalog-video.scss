@@ -4,9 +4,9 @@
   text-align: start;
   border: 1px solid $border;
 
+
   @media (min-width: $tablet-width) {
-
-
+    margin: 15px 50px 100px 50px;
     display: grid;
     grid-template:
       "video" auto
@@ -16,9 +16,9 @@
 
   @media (min-width: $desktop-width) {
     display: grid;
-    margin: 0 auto;
+    margin: 15px auto 100px auto;
     grid-template:
-      "video v-head" auto
-      "video descr" auto / 2fr 1fr;
+      "video v-head" 170px
+      "video descr" 284px / 2fr 1fr;
   }
 }

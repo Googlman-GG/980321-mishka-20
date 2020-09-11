@@ -8,8 +8,8 @@
 
 
   @media (min-width: $tablet-width) {
-    margin-top: -80px;
-    padding: 95px 0;
+    margin-top: -60px;
+    padding: 70px 0;
 
     &::after {
       content: "";
@@ -27,7 +27,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: -90px;
+    margin-top: -60px;
 
     &::after {
       height: 34px;
