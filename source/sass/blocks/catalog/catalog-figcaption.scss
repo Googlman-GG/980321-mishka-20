@@ -4,22 +4,35 @@
 
   @media (min-width: $tablet-width) {
     flex-grow: 2;
+    padding: 0 25px;
   }
 }
 
+.product__heading-wrapp {
+  height: 123px;
+}
+
 .product__name {
+  margin: 0 auto;
   margin-top: 24px;
-  margin-bottom: 10px;
   font-weight: bold;
-  font-size: 17px;
   line-height: 24px;
+  max-width: 230px;
+  font-size: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 22px;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 24px;
+  }
 }
 
 .product__description {
+  margin: 10px 0;
   font-family: "Open-sans", "Arials", sans-serif;
   font-size: 13px;
   line-height: 30px;
-  margin-bottom: 18px;
 }
 
 .product__border {

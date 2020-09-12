@@ -3,11 +3,16 @@
   line-height: 24px;
 }
 
+
 .reviews__text {
-  font-family: "Open-Sans", "Arial", sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 30px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 42px;
+  }
 }
 
 .reviews__author-link {
@@ -17,4 +22,5 @@
   color: $smallfont;
   font-size: 17px;
   line-height: 30px;
+  margin-bottom: 50px;
 }

@@ -1,6 +1,17 @@
-.menu-product__heading {
+.main-top__product-heading {
+  grid-area: d;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
   @media (min-width: $desktop-width) {
-    font-size: 53px;
-    line-height: 57px;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 203px;
+    z-index: 1;
   }
 }

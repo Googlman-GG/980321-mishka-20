@@ -1,18 +1,55 @@
 .contacts {
+  position: relative;
   margin: 0 auto;
   margin-top: 46px;
   margin-bottom: 57px;
   max-width: 1150px;
+
+  @media (min-width: $tablet-width) {
+    padding: 50px 0;
+    padding-bottom: 29px;
+  }
 }
 
 .contacts-wrapp {
   position: relative;
 
+  @media (min-width: $tablet-width) {
+    margin: 15px 0;
+  }
+
   @media (min-width: $desktop-width) {
+    padding: 0 50px;
     display: grid;
     grid-template:
       "heading map" auto
-      "list map" 269px
-      "button map" 50px / 1fr 1fr;
+      "list map" 267px
+      "button map" 55px / 1fr 1fr;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    width: 100%;
+    background: url("../img/bg-zigzag-line.svg") repeat no-repeat;
+    background-size: contain;
+
+    @media (min-width: $tablet-width) {
+      max-width: 1050px;
+      top: -95px;
+      left: 10px;
+      height: 17px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 1150px;
+      height: 23px;
+    }
   }
 }

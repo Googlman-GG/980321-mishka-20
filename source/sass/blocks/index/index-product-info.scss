@@ -2,17 +2,19 @@
   @media (min-width: $tablet-width) {
     grid-area: a;
     flex-basis: 40%;
-    padding: 0 20px;
+    padding: 0 10px;
     order: 0;
   }
 
   @media (min-width: $desktop-width) {
-    max-width: 320px;
+    max-width: 300px;
+    margin-right: 50px;
     margin-left: auto;
   }
 }
 
 .menu-product__info {
+  padding-bottom: 30px;
   font-weight: normal;
   font-size: 17px;
   line-height: 30px;
