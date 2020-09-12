@@ -41,9 +41,6 @@
   }
 }
 
-
-
-
 .input-details {
   font-size: 17px;
   line-height: 18px;
@@ -54,12 +51,8 @@
 
   @media (min-width: $tablet-width) {
     font-size: 19px;
-
     padding: 10px 20px;
-
     margin: 0 auto;
     background-color: $bg-footer;
   }
-
-  @media (min-width: $desktop-width) {}
 }
