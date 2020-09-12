@@ -1,6 +1,8 @@
 .form-details__wrap {
   @media (min-width: $tablet-width) {
+    padding-bottom: 35px;
     background-color: $bg-footer;
+    position: relative;
   }
 }
 
@@ -8,13 +10,13 @@
   @media (min-width: $tablet-width) {
     margin: 0 auto;
     max-width: 500px;
-    position: relative;
-    padding: 40px 0;
-    padding-left: 60px;
+
+    padding: 19px 0;
+
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 70;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;

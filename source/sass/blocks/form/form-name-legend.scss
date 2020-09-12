@@ -12,7 +12,11 @@
   left: 0;
 
   @media (min-width: $tablet-width) {
-    left: -110px;
-    top: 30px;
+    left: -87px;
+    top: 48px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: -113px;
   }
 }
