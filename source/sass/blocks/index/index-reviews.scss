@@ -1,8 +1,9 @@
 .reviews {
   position: relative;
-  left: -70px;
+  left: -40px;
 
   @media (min-width: $tablet-width) {
+    left: -70px;
     padding: 50px 30px;
     padding-left: 100px;
     background-image: url("../img/review@1x.jpg");

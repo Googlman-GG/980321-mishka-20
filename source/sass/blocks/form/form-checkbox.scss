@@ -26,7 +26,11 @@
 
   @media (min-width: $tablet-width) {
     background-color: $bg-footer;
-    left: -90px;
-    top: 30px;
+    left: -125px;
+    top: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: -105px;
   }
 }

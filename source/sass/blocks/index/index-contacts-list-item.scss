@@ -1,6 +1,6 @@
 .contacts__item {
   display: flex;
-  padding-left: 20px;
+
 
   @media (min-width: $desktop-width) {
     width: 360px;
@@ -8,8 +8,16 @@
 }
 
 .contacts-container {
-  margin: 0 10px 40px 20px;
+  margin: 0 10px 40px 0;
   display: block;
   max-width: 230px;
   min-width: 50px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 10px 40px 25px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 10px 40px 40px;
+  }
 }
