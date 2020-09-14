@@ -9,7 +9,7 @@
   transform: rotate(45deg);
 }
 
-.burger--line {
+.burger__line {
   fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
   stroke: $black;
@@ -17,18 +17,18 @@
   stroke-linecap: round;
 }
 
-.burger .align--top {
+.burger .burger__align--top {
   stroke-dasharray: 40 139;
 }
 
-.burger .align--bottom {
+.burger .burger__align--bottom {
   stroke-dasharray: 40 180;
 }
 
-.burger.burger--active .align--top {
+.burger.burger--active .burger__align--top {
   stroke-dashoffset: -98px;
 }
 
-.burger.burger--active .align--bottom {
+.burger.burger--active .burger__align--bottom {
   stroke-dashoffset: -138px;
 }

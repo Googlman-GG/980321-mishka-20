@@ -21,9 +21,9 @@
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
         <svg class="burger" viewBox="0 0 100 100" width="36" onclick="this.classList.toggle('burger--active')">
-          <path class="burger--line align--top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-          <path class="burger--line align--middle" d="m 30,50 h 40" />
-          <path class="burger--line align--bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+          <path class="burger__line burger__align--top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+          <path class="burger__line burger__align--middle" d="m 30,50 h 40" />
+          <path class="burger__line burger__align--bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
         </svg>
       </button>
       <ul class="main-nav__list list__nav">
@@ -110,7 +110,7 @@
               <source type="image/webp" srcset="img/triple-set-mobile_1.webp 1x, img/triple-set-mobile_2.webp 2x">
               <source media="(min-width: 1150px)" srcset="img/triple-set-desktop@1x.jpg 1x, img/triple-set-desktop@2x.jpg 2x">
               <source media="(min-width: 768px)" srcset="img/triple-set-tablet@1x.jpg 1x, img/triple-set-tablet@2x.jpg 2x">
-              <img class="main-product__image" src="img/triple-set-mobile@1x.jpg 1x, img/triple-set-mobile@2x.jpg 2x" alt="Вязаные корзинки" width="260" height="315">
+              <img class="main-product__image" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@1x.jpg 1x, img/triple-set-mobile@2x.jpg 2x" alt="Вязаные корзинки" width="260" height="315">
             </picture>
             <div class="main-prod__order">
               <span class="main-prod__price">Цена: 990 руб.</span>
@@ -237,7 +237,7 @@
             <source type="image/webp" srcset="img/map-mobile_1x.webp 1x, img/map-mobile_2x.webp 2x">
             <source media="(min-width: 1150px)" srcset="img/map-desktop@1x.jpg 1x, img/map-desktop@2x.jpg 2x">
             <source media="(min-width: 768px)" srcset="img/map-tablet@1x.jpg 1x, img/map-tablet@2x.jpg 2x">
-            <img class="contacts-picture__map" src="img/map-mobile@1x.jpg 1x, img/map-mobile_2x.jpg 2x" alt="Карта как добраться" width="322" height="457">
+            <img class="contacts-picture__map" src="img/map-mobile@1x.jpg" srcset="img/img/map-mobile@1x.jpg 1x, img/map-mobile_2x.jpg 2x" alt="Карта как добраться" width="322" height="457">
           </picture>
           <button class="contacts__button button">Напишите нам</button>
         </div>
@@ -280,15 +280,15 @@
           Добавить в корзину
         </h1>
         <span class="modal-element">Выберите размер:</span>
-        <input class="modal-button" type="radio">
-          <span class="modal-button__item">s</span>
-        </input>
-        <input class="modal-button" type="radio">
-          <span class="modal-button__item">m</span>
-        </input>
-        <input class="modal-button" type="radio">
-          <span class="modal-button__item">l</span>
-        </input>
+        <label class="modal-button__item" >
+          <input class="modal-button" type="radio">s
+        </label>
+        <label class="modal-button__item">
+          <input class="modal-button" type="radio">m
+        </label>
+        <label class="modal-button__item" >
+          <input class="modal-button" type="radio">l
+        </label>
         <button class="modal-close" href="#">Добавить</button>
       </div>
     </div>
