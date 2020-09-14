@@ -10,8 +10,9 @@
   line-height: 16px;
 
   &:hover {
-    border-color: rgba(68,68,68, 0.7);
+    border-color: rgba(68, 68, 68, 0.7);
   }
+
   &:active {
     border-color: $green;
   }

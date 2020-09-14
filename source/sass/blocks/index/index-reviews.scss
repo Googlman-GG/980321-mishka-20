@@ -7,8 +7,8 @@
     padding: 50px 30px;
     padding-left: 100px;
     background-image: url("../img/review@1x.jpg");
-    @include imgRetina("../img/review@2x.jpg", 350px, 457px);
 
+    @include imgRetina("../img/review@2x.jpg", 350px, 457px);
     background-position: left center;
     background-repeat: no-repeat;
     margin-top: 63px;

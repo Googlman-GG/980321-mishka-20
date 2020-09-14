@@ -1,3 +1,4 @@
+@import "blocks/catalog/catalog-border.css";
 html {
   box-sizing: border-box;
 }
@@ -703,9 +704,8 @@ template {
   background-position: center 0;
   background-repeat: no-repeat;
 }
-@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+@media (min-resolution: 1.3dppx) {
   .menu-wrapp {
-    /* on retina, use image that's scaled by 2 */
     background-image: url("../img/hero-mobile@2x.jpg");
     background-size: 575px 373px;
   }
@@ -716,9 +716,8 @@ template {
     background-image: url("../img/hero-tablet@1x.jpg");
   }
 }
-@media (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), (min-width: 768px) and (-o-min-device-pixel-ratio: 2.6/2), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), (min-width: 768px) and (min-device-pixel-ratio: 1.3), (min-width: 768px) and (min-resolution: 1.3dppx) {
+@media (min-width: 768px) and (min-resolution: 1.3dppx) {
   .menu-wrapp {
-    /* on retina, use image that's scaled by 2 */
     background-image: url("../img/hero-tablet@2x.jpg");
     background-size: 1150px 746px;
   }
@@ -729,9 +728,8 @@ template {
     background-image: url("../img/hero-desktop@1x.jpg");
   }
 }
-@media (min-width: 1150px) and (min--moz-device-pixel-ratio: 1.3), (min-width: 1150px) and (-o-min-device-pixel-ratio: 2.6/2), (min-width: 1150px) and (-webkit-min-device-pixel-ratio: 1.3), (min-width: 1150px) and (min-device-pixel-ratio: 1.3), (min-width: 1150px) and (min-resolution: 1.3dppx) {
+@media (min-width: 1150px) and (min-resolution: 1.3dppx) {
   .menu-wrapp {
-    /* on retina, use image that's scaled by 2 */
     background-image: url("../img/hero-desktop@2x.jpg");
     background-size: 1250px 763px;
   }
@@ -1118,9 +1116,8 @@ template {
     margin-bottom: 95px;
   }
 }
-@media (min-width: 768px) and (min--moz-device-pixel-ratio: 1.3), (min-width: 768px) and (-o-min-device-pixel-ratio: 2.6/2), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.3), (min-width: 768px) and (min-device-pixel-ratio: 1.3), (min-width: 768px) and (min-resolution: 1.3dppx) {
+@media (min-width: 768px) and (min-resolution: 1.3dppx) {
   .reviews {
-    /* on retina, use image that's scaled by 2 */
     background-image: url("../img/review@2x.jpg");
     background-size: 350px 457px;
   }
@@ -1606,12 +1603,24 @@ template {
   .product__figcaption {
     flex-grow: 2;
     padding: 0 35px;
-    padding: 0 25px;
   }
 }
 
 .product__heading-wrapp {
   height: 123px;
+}
+
+.product__border {
+  width: 90%;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: auto;
+  background-color: #e5e5e5;
+}
+@media (min-width: 768px) {
+  .product__border {
+    width: 100%;
+  }
 }
 
 .product__name {
@@ -1636,19 +1645,6 @@ template {
   font-family: "Open-sans", "Arials", sans-serif;
   font-size: 13px;
   line-height: 30px;
-}
-
-.product__border {
-  width: 90%;
-  height: 1px;
-  margin: 0 auto;
-  margin-top: auto;
-  background-color: #e5e5e5;
-}
-@media (min-width: 768px) {
-  .product__border {
-    width: 100%;
-  }
 }
 
 .main-catalog__image {
@@ -2605,29 +2601,6 @@ template {
   opacity: 0.3;
 }
 
-.footer-page__list {
-  margin: 0 auto;
-  padding: 30px 0;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  list-style: none;
-}
-
-@media (min-width: 768px) {
-  .footer-page__item {
-    margin: 0 40px;
-  }
-}
-
-.footer-page__svg:hover {
-  fill: #63d1bb;
-}
-.footer-page__svg:active {
-  fill: #63d1bb;
-  opacity: 0.3;
-}
-
 .footer-page__developer {
   font-size: 19px;
   line-height: 18px;
@@ -2643,11 +2616,11 @@ template {
   margin-left: 20px;
 }
 .footer-developer__svg:hover {
-  fill: #46C1AE;
+  fill: #46c1ae;
 }
 .footer-developer__svg:active {
   opacity: 0.3;
-  fill: #46C1AE;
+  fill: #46c1ae;
 }
 
 .modal-wrapp {

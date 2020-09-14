@@ -8,8 +8,6 @@
   border: 2px solid $black;
   border-radius: 50%;
 
-
-
   @media (min-width: $tablet-width) {
     top: -6px;
     left: -25px;
@@ -17,11 +15,13 @@
     height: 50px;
   }
 }
+
 .input-radio:hover + .label-radio::before {
   border-color: $green;
 }
+
 .input-radio:active + .label-radio::before {
-  border-color: rgba(0,0,0,0.3);
+  border-color: rgba(0, 0, 0, 0.3);
 }
 
 .input-radio:checked + .label-radio::after {

@@ -5,20 +5,18 @@
   border: 1px solid $border;
 
   &:hover .video__bottom-container {
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   }
 
   @media (min-width: $tablet-width) {
     margin: 15px 50px 100px 50px;
     display: grid;
-    grid-template:
-      "video"auto "v-head"auto "descr"auto / 1fr;
+    grid-template: "video" auto "v-head" auto "descr" auto / 1fr;
   }
 
   @media (min-width: $desktop-width) {
     display: grid;
     margin: 15px auto 100px auto;
-    grid-template:
-      "video v-head"170px "video descr"284px / 682px 1fr;
+    grid-template: "video v-head" 170px "video descr" 284px / 682px 1fr;
   }
 }
