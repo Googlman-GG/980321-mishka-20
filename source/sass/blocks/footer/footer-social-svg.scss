@@ -1,0 +1,10 @@
+.footer-page__svg {
+  &:hover {
+    fill: $green;
+  }
+
+  &:active {
+    fill: $green;
+    opacity: 0.3;
+  }
+}

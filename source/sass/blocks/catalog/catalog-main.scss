@@ -19,6 +19,15 @@
   border: 1px solid $border-footer;
   text-align: center;
 
+
+  &:hover .product__figcaption {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &:active .product__figcaption {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+
   @media (min-width: $tablet-width) {
     text-align: start;
   }

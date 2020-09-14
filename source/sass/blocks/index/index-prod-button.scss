@@ -1,0 +1,13 @@
+.menu-prod__button {
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+
+  @media (min-width: $desktop-width) {
+    min-width: 290px;
+    margin-right: 50px;
+  }
+}

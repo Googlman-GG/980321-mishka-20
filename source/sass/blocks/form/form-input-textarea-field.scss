@@ -17,30 +17,6 @@
   }
 }
 
-.fieldset__textarea {
-  text-transform: uppercase;
-  padding: 0 16px 0 0;
-  background: $black;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 16px;
-  color: $green;
-  background-color: $white;
-  position: absolute;
-  top: -15px;
-  left: 0;
-
-  @media (min-width: $tablet-width) {
-    left: -90px;
-    top: 40px;
-  }
-
-  @media (min-width: $desktop-width) {
-    left: -111px;
-    top: 40px;
-  }
-}
-
 .textarea-field {
   width: 100%;
   margin-left: auto;
@@ -48,11 +24,20 @@
   margin-top: 20px;
   border: 2px solid $black;
   resize: none;
+  outline: none;
   font-size: 17px;
   line-height: 18px;
   padding: 17px 40px 17px 17px;
-  color: $black;
-  opacity: 0.3;
+  color: #000000;
+
+  &::placeholder {
+    opacity: 0.3;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $green;
+  }
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
