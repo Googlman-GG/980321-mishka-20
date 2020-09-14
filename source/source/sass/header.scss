@@ -1,0 +1,34 @@
+.page-header {
+  margin: 0 auto;
+  max-width: 1150px;
+  display: grid;
+  position: relative;
+  grid-template:
+    "logo" 80px
+    "navig" auto
+    "actions" auto / 1fr;
+
+  @media (min-width: $tablet-width) {
+    grid-template:
+      "logo actions" auto
+      "navig info" auto / 1fr 1fr;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template:
+      "navig logo actions" 90px
+      "links logo info" 90px / 1fr 200px 1fr;
+  }
+}
+
+.page-header__logo {
+  @media (min-width: $tablet-width) {
+    border: 1px solid $border;
+    border-right: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    border-left: none;
+    border-right: none;
+  }
+}

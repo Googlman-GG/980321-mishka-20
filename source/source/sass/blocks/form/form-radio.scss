@@ -1,0 +1,26 @@
+.form-radio {
+  border: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  border-top: 1px solid $green;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
+}
+
+.form-radio__legend {
+  padding: 0 16px 0 0;
+  padding-left: 26px;
+  font-size: 17px;
+  line-height: 16px;
+  color: $green;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    left: calc(10% - 30vw);
+    top: 20px;
+  }
+}
