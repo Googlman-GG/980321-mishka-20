@@ -5,8 +5,8 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    margin-top: -80px;
-    padding: 95px 0;
+    margin-top: -60px;
+    padding: 74px 0;
     text-align: center;
 
     &::after {
@@ -14,7 +14,7 @@
       display: block;
       margin: 0 auto;
       position: absolute;
-      bottom: 0;
+      bottom: -3px;
       left: 0;
       right: 0;
       height: 24px;
@@ -25,7 +25,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: -90px;
+    margin-top: -60px;
 
     &::after {
       content: "";
@@ -44,7 +44,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    font-size: 53px;
-    line-height: 57px;
+    font-size: 57px;
+    line-height: 47px;
   }
 }

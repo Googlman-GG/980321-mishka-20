@@ -5,13 +5,18 @@
   border-top: 1px solid $green;
 
   @media (min-width: $tablet-width) {
-    max-width: 440px;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    max-width: 490px;
     border: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 770px;
   }
 }
 
 .form-radio__legend {
-
   text-transform: uppercase;
   padding: 0 16px 0 20px;
   background: $black;
@@ -25,7 +30,12 @@
   left: 0;
 
   @media (min-width: $tablet-width) {
-    left: -90px;
+    left: -125px;
+    top: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: -100px;
     top: 30px;
   }
 }

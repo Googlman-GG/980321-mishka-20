@@ -13,6 +13,14 @@
   }
 }
 
+.input-checkbox:hover + .label-checkbox::before {
+  border-color: $green;
+}
+
+.input-checkbox:active + .label-checkbox::before {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
 .input-checkbox:checked + .label-checkbox::after {
   content: "";
   position: absolute;

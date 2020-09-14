@@ -29,22 +29,3 @@
     left: 37px;
   }
 }
-
-.video-heading__text {
-  font-size: 17px;
-  line-height: 24px;
-  max-width: 157px;
-
-  @media (min-width: $tablet-width) {
-    max-width: 300px;
-    margin-top: 35px;
-    margin-bottom: 0;
-    font-size: 22px;
-    line-height: 24px;
-  }
-
-  @media (min-width: $desktop-width) {
-    max-width: 157px;
-    margin: 25px 0;
-  }
-}

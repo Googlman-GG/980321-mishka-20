@@ -1,5 +1,5 @@
 .form-name {
-  margin: 24px 0 0;
+  margin: 24px auto;
   padding: 0 30px;
   border: none;
 }
@@ -11,16 +11,15 @@
   border-top: 1px solid $green;
 
   @media (min-width: $tablet-width) {
-    padding: 0;
+    padding: 15px 0;
     min-width: 500px;
-    left: 60px;
+
     max-width: 500px;
     margin: 0 auto;
     border: none;
   }
 
   @media (min-width: $desktop-width) {
-    left: 160px;
-    min-width: 700px;
+    min-width: 690px;
   }
 }

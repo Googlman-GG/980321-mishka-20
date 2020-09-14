@@ -1,0 +1,6 @@
+@mixin imgRetina($image2x, $width, $height) {
+  @media (min-resolution: 1.3dppx) {
+    background-image: url($image2x);
+    background-size: $width $height;
+  }
+}

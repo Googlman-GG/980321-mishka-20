@@ -1,0 +1,14 @@
+.list__action {
+  grid-area: actions;
+
+  @media (min-width: $tablet-width) {
+    border: 1px solid $border;
+    border-left: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-content: flex-end;
+  }
+}
