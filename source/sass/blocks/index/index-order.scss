@@ -1,24 +1,28 @@
 .main-prod__order {
   text-align: center;
-
-  @media (min-width: $tablet-width) {
-    grid-area: c;
-  }
+  margin: 5px;
 
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    grid-area: c;
+  }
+
+  @media (min-width: $desktop-width) {
     align-items: flex-end;
   }
 }
 
 .main-prod__price {
   display: block;
-  margin: 30px;
+  margin: 30px auto;
   font-size: 17px;
   line-height: 24px;
 
   @media (min-width: $desktop-width) {
+    font-size: 20px;
+    min-width: 155px;
     margin-right: 117px;
   }
 }

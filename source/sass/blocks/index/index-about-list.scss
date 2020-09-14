@@ -1,18 +1,22 @@
 .main-info__list {
-  max-width: 800px;
+  padding: 0 30px;
   list-style: none;
 
   @media (min-width: $tablet-width) {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 51px 44px;
+    grid-template-columns: 300px 300px;
+    margin-left: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 80px;
   }
 }
 
 .main-info__about {
-  margin-top: 12px;
-  margin-bottom: 30px;
+  margin-top: 10px;
   font-size: 17px;
-  line-height: 20px;
+  line-height: 28px;
   display: block;
 }

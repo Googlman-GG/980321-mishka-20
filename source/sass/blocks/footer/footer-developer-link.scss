@@ -1,5 +1,14 @@
 .footer-developer__svg {
-  width: 27px;
-  height: 34px;
-  margin: 0 27px;
+  width: 40px;
+  height: 64px;
+  margin-left: 20px;
+
+  &:hover {
+    fill: $green-deep;
+  }
+
+  &:active {
+    opacity: 0.3;
+    fill: $green-deep;
+  }
 }

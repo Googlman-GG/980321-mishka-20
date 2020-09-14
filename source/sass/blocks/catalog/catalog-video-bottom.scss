@@ -4,6 +4,12 @@
   justify-content: center;
 
   @media (min-width: $tablet-width) {
+    padding: 30px 35px;
     grid-area: descr;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 55px 60px 60px;
+    justify-content: space-between;
   }
 }

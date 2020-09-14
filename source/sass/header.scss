@@ -11,13 +11,13 @@
   @media (min-width: $tablet-width) {
     grid-template:
       "logo actions" auto
-      "navig info" auto / 1fr 1fr;
+      "navig info" 60px / 1fr 1fr;
   }
 
   @media (min-width: $desktop-width) {
     grid-template:
       "navig logo actions" 90px
-      "links logo info" 90px / 1fr 200px 1fr;
+      "links logo info" 60px / 1fr 200px 1fr;
   }
 }
 

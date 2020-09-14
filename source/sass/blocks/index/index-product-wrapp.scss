@@ -1,4 +1,6 @@
 .product-wrapp {
+  max-width: 1070px;
+
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template:
@@ -15,8 +17,8 @@
     @media (min-width: $desktop-width) {
       position: relative;
       grid-template:
-        "d b" 150px
-        "a b" 290px
+        "d b" 160px
+        "a b" 360px
         "c b" auto / 1fr 1fr;
     }
   }

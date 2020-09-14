@@ -1,5 +1,5 @@
 .product__details {
-  margin: 22px 0 26px 0;
+  margin: 22px 0 25px 0;
   padding: 0 28px;
   display: flex;
   justify-content: space-between;
@@ -8,19 +8,4 @@
     padding: 0;
     justify-content: space-between;
   }
-}
-
-.product__price {
-  font-size: 17px;
-  line-height: 24px;
-}
-
-.product__btn {
-  background: none;
-  border: none;
-}
-
-.product__svg {
-  opacity: 0.2;
-  fill: $black;
 }

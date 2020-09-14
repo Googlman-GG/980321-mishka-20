@@ -1,0 +1,12 @@
+.contacts__item--email-link {
+  padding: 5px 0;
+  border-bottom: 1px solid $green;
+
+  &:hover {
+    color: $green;
+  }
+
+  &:active {
+    border-color: rgba(70, 193, 174, 0.1);
+  }
+}

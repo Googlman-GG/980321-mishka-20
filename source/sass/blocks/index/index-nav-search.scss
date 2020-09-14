@@ -11,17 +11,8 @@
     border-left: 1px solid $border;
     border-right: 1px solid $border;
   }
-}
 
-.main-nav__icon-search {
-  left: 30px;
-  position: absolute;
-  opacity: 0.2;
-
-
-  @media (min-width: $tablet-width) {
-    left: 0;
-    margin: 20px 30px;
-    position: relative;
+  @media (min-width: $desktop-width) {
+    margin-left: 45px;
   }
 }

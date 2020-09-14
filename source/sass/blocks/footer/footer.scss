@@ -1,23 +1,12 @@
 .footer-page {
   max-width: 1150px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 30px 25px 30px 50px;
   background: $bg-footer;
 
   @media (min-width: $tablet-width) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-}
-
-.footer-page--border {
-  margin: 0 auto;
-  width: 80%;
-  height: 1px;
-  background-color: $border-footer;
-
-  @media (min-width: $tablet-width) {
-    display: none;
   }
 }

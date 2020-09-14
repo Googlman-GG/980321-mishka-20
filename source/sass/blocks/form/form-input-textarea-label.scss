@@ -1,0 +1,23 @@
+.fieldset__label {
+  text-transform: uppercase;
+  padding: 0 16px 0 0;
+  background: $black;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  color: $green;
+  background-color: $white;
+  position: absolute;
+  top: -15px;
+  left: 0;
+
+  @media (min-width: $tablet-width) {
+    left: -90px;
+    top: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: -111px;
+    top: 40px;
+  }
+}
