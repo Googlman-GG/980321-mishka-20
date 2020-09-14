@@ -5,3 +5,13 @@
     display: block;
   }
 }
+
+.footer-logo__link {
+  &:hover {
+    fill: $green;
+  }
+  &:active {
+    fill: $green;
+    opacity: 0.3;
+  }
+}

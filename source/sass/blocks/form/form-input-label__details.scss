@@ -37,7 +37,6 @@
   @media (min-width: $desktop-width) {
     top: 15px;
     left: -113px;
-    background-color: $bg-footer;
   }
 }
 
@@ -47,7 +46,13 @@
   width: 100%;
   margin: 30px 0;
   border: none;
+  outline: none;
   border-bottom: 2px solid $black;
+
+  &:hover,
+  &:focus {
+    border-color: $green;
+  }
 
   @media (min-width: $tablet-width) {
     font-size: 19px;

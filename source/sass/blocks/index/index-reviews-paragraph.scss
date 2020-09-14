@@ -1,0 +1,10 @@
+.reviews__text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 30px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 42px;
+  }
+}

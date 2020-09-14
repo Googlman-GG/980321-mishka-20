@@ -1,0 +1,23 @@
+.form-checkbox__legend {
+  text-transform: uppercase;
+  padding: 0 16px 0 20px;
+  background: $black;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  color: $green;
+  background-color: $white;
+  position: absolute;
+  top: -10px;
+  left: 0;
+
+  @media (min-width: $tablet-width) {
+    background-color: $bg-footer;
+    left: -125px;
+    top: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: -105px;
+  }
+}

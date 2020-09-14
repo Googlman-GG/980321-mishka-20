@@ -2,4 +2,12 @@
   width: 40px;
   height: 64px;
   margin-left: 20px;
+
+  &:hover {
+    fill: $green-deep;
+  }
+  &:active {
+    opacity: 0.3;
+    fill: $green-deep;
+  }
 }
