@@ -1,0 +1,17 @@
+.contacts-heading {
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: auto;
+    padding-right: 80px;
+    align-items: flex-end;
+  }
+}

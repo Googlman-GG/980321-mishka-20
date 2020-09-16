@@ -1,4 +1,4 @@
-.menu-top__product {
+.menu-product__top {
   padding: 0 30px;
   margin: 0 auto;
   max-width: 1150px;
@@ -6,6 +6,7 @@
   margin-bottom: 50px;
 
   @media (min-width: $tablet-width) {
+    padding: 0;
     margin-bottom: 50px;
   }
 

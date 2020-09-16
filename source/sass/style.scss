@@ -28,6 +28,7 @@ $mobile-width-only: 767px;
 @import "bg-mixin.scss";
 
 //header
+@import "blocks/header/header-list-no-nav.scss";
 @import "blocks/header/header-list-nav.scss";
 @import "blocks/header/header-list-nav-item.scss";
 @import "blocks/header/header-list-action.scss";
@@ -41,6 +42,7 @@ $mobile-width-only: 767px;
 @import "blocks/index/index-nav-basked.scss";
 @import "blocks/index/index-nav-basked-item.scss";
 @import "blocks/index/index-nav-links.scss";
+@import "blocks/index/index-nav-link.scss";
 @import "blocks/index/index-nav-info.scss";
 @import "blocks/index/index-menu-wrapp.scss";
 @import "blocks/index/index-heading.scss";
@@ -74,6 +76,7 @@ $mobile-width-only: 767px;
 @import "blocks/index/index-reviews-write.scss";
 @import "blocks/index/index-contacts-wrapp.scss";
 @import "blocks/index/index-contacts.scss";
+@import "blocks/index/index-contacts-heading-container.scss";
 @import "blocks/index/index-contacts-heading.scss";
 @import "blocks/index/index-contacts-list.scss";
 @import "blocks/index/index-contacts-list-item.scss";
@@ -124,10 +127,10 @@ $mobile-width-only: 767px;
 @import "blocks/form/form-input-details.scss";
 @import "blocks/form/form-input-details-container.scss";
 @import "blocks/form/form-input-label__details.scss";
+@import "blocks/form/form-input-label__legend.scss";
 @import "blocks/form/form-input-textarea-label.scss";
 @import "blocks/form/form-input-textarea-field.scss";
 @import "blocks/form/form-bottom-container.scss";
-@import "blocks/form/form-bottom-container-description.scss";
 @import "blocks/form/form-description.scss";
 @import "blocks/form/form-button.scss";
 //footer

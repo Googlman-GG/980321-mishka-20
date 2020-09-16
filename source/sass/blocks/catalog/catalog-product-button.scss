@@ -1,23 +1,23 @@
-.product__price {
+.main-catalog__price {
   font-size: 17px;
   line-height: 24px;
 }
 
-.product__btn {
+.main-catalog__btn {
   background: none;
   border: none;
 
-  &:hover .product__svg {
+  &:hover .main-catalog__svg {
     fill: $green;
     opacity: 1;
   }
 
-  &:active .product__svg {
+  &:active .main-catalog__svg {
     opacity: 0.3;
   }
 }
 
-.product__svg {
+.main-catalog__svg {
   opacity: 0.2;
   fill: $black;
 }

@@ -1,17 +1,17 @@
-
-.menu-product__heading {
+.menu-product__top-header {
   margin-top: 30px;
   font-size: 25px;
   line-height: 30px;
 
   @media (min-width: $tablet-width) {
-    margin: 0;
     font-size: 43px;
     line-height: 50px;
+    margin-bottom: 20px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 57px;
+    margin: 0;
     margin-top: 65px;
   }
 }

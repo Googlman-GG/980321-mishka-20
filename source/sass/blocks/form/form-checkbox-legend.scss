@@ -1,7 +1,6 @@
 .form-checkbox__legend {
   text-transform: uppercase;
-  padding: 0 16px 0 20px;
-  background: $black;
+  padding: 0 16px 0 0;
   font-weight: bold;
   font-size: 17px;
   line-height: 16px;
@@ -13,11 +12,12 @@
 
   @media (min-width: $tablet-width) {
     background-color: $bg-footer;
-    left: -125px;
+    margin: 0 auto;
+    left: -130px;
     top: 63px;
   }
 
   @media (min-width: $desktop-width) {
-    left: -105px;
+    left: -95px;
   }
 }

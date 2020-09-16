@@ -1,7 +1,6 @@
-.form-name__legend {
+.input-name__legend {
   text-transform: uppercase;
   padding: 0 16px 0 0;
-  background: $black;
   font-weight: bold;
   font-size: 17px;
   line-height: 16px;
@@ -12,11 +11,11 @@
   left: 0;
 
   @media (min-width: $tablet-width) {
-    left: -87px;
+    left: -98px;
     top: 48px;
   }
 
   @media (min-width: $desktop-width) {
-    left: -113px;
+    left: -118px;
   }
 }

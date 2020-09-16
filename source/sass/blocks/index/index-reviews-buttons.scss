@@ -1,12 +1,17 @@
 .reviews-buttons {
   display: flex;
   justify-content: center;
+  position: relative;
   margin-top: 30px;
+  padding: 0 30px;
+  right: -40px;
 
   @media (min-width: $tablet-width) {
+    padding: 0;
     position: absolute;
     bottom: 100px;
     right: -40px;
+
   }
 
   @media (min-width: $desktop-width) {
@@ -15,6 +20,7 @@
 }
 
 .review-button {
+  width: 100%;
   display: block;
   font-size: 0;
   outline: none;
@@ -33,6 +39,8 @@
 
   @media (min-width: $tablet-width) {
     border: none;
+    width: auto;
+
     padding: 13px 19px;
   }
 }

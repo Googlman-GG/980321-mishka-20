@@ -17,18 +17,18 @@
   stroke-linecap: round;
 }
 
-.burger .burger__align--top {
+.burger .burger__align__top {
   stroke-dasharray: 40 139;
 }
 
-.burger .burger__align--bottom {
+.burger .burger__align__bottom {
   stroke-dasharray: 40 180;
 }
 
-.burger.burger--active .burger__align--top {
+.burger.burger--active .burger__align__top {
   stroke-dashoffset: -98px;
 }
 
-.burger.burger--active .burger__align--bottom {
+.burger.burger--active .burger__align__bottom {
   stroke-dashoffset: -138px;
 }

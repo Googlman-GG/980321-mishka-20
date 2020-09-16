@@ -1,4 +1,4 @@
-.video {
+.video-box {
   position: relative;
   margin: 0 auto;
   width: 100%;
@@ -10,12 +10,12 @@
     grid-area: video;
   }
 
-  &:hover .video__button-svg {
+  &:hover .video-box__button-svg {
     outline: none;
     transform: scale(1.2);
   }
 
-  &:active .video__button-svg {
+  &:active .video-box__button-svg {
     transform: scale(0.8);
     opacity: 0.3;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));

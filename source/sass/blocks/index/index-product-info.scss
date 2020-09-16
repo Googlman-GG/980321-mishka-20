@@ -1,4 +1,4 @@
-.menu_product__description-container {
+.product-wrapp__description-container {
   @media (min-width: $tablet-width) {
     grid-area: a;
     flex-basis: 40%;
@@ -13,7 +13,7 @@
   }
 }
 
-.menu-product__info {
+.product-wrapp__info {
   font-family: "Open-Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 24px;
