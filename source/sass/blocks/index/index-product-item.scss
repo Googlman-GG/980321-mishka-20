@@ -1,13 +1,15 @@
-.prod-container__cell {
+.product-wrapp__list-cell {
   padding: 10px 0;
   display: flex;
   justify-content: flex-start;
-  font-family: "Open-Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
   border-bottom: 1px solid $box-shadow;
 }
 
-.prod-container__item {
+.product-wrapp__list-cell__item {
   min-width: 100px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
 }

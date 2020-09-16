@@ -11,6 +11,7 @@
     padding: 40px 26px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 }
 
@@ -18,6 +19,10 @@
   margin-top: 70px;
   border: 1px solid $border-footer;
   text-align: center;
+
+  @media (min-width: $desktop-width) {
+    margin-top: 70px;
+  }
 
 
   &:hover .product__figcaption {
