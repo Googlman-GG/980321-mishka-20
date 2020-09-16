@@ -1,8 +1,8 @@
 .menu-wrapp {
-  max-width: 1150px;
   margin: 0 auto;
   margin-bottom: 50px;
   text-align: center;
+  background-color: rgb(249, 249, 249);
   background-image: url("../img/hero-mobile@1x.jpg");
 
   @include imgRetina("../img/hero-mobile@2x.jpg", 575px, 373px);
