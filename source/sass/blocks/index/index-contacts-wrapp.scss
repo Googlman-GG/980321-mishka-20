@@ -76,10 +76,8 @@
     padding: 0 50px;
     display: grid;
     grid-template:
-      "heading map"auto "list map"267px "button map"55px / 1fr 1fr;
+      "heading map" auto
+      "list map" 267px
+      "button map"55px / 1fr 1fr;
   }
-
-
-
 }
-
