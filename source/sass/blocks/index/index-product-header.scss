@@ -1,6 +1,6 @@
 .menu-product__top-heading {
   margin: 0 auto;
-  max-width: 1050px;
+  max-width: 950px;
   grid-area: d;
 
   @media (min-width: $tablet-width) {
@@ -10,7 +10,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    justify-content: center;
+    justify-content: flex-end;
     padding: 0 40px;
     position: absolute;
     top: 20px;

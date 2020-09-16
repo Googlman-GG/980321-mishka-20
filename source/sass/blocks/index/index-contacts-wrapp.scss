@@ -2,30 +2,12 @@
   position: relative;
   margin: 0 auto;
   margin-top: 46px;
-  max-width: 1150px;
   padding: 30px 0;
 
   @media (min-width: $tablet-width) {
     padding: 50px 0;
     margin-bottom: 57px;
     padding-bottom: 29px;
-  }
-}
-
-.contacts__wrapp {
-  position: relative;
-
-  @media (min-width: $tablet-width) {
-    margin: 15px 0;
-  }
-
-  @media (min-width: $desktop-width) {
-    padding: 0 50px;
-    display: grid;
-    grid-template:
-      "heading map" auto
-      "list map" 267px
-      "button map" 55px / 1fr 1fr;
   }
 
   &::before {
@@ -42,15 +24,62 @@
     background-size: contain;
 
     @media (min-width: $tablet-width) {
-      max-width: 1050px;
-      top: -95px;
+
+      top: -45px;
       left: 10px;
       height: 17px;
     }
 
     @media (min-width: $desktop-width) {
-      width: 1150px;
+
       height: 23px;
     }
   }
+
+  &::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    width: 100%;
+    background: url("../img/bg-zigzag-line.svg") repeat no-repeat;
+    background-size: contain;
+
+    @media (min-width: $tablet-width) {
+      height: 17px;
+      bottom: -75px;
+    }
+
+    @media (min-width: $desktop-width) {
+
+      height: 23px;
+
+      top: -1245px;
+    }
+  }
 }
+
+.contacts__wrapp {
+  position: relative;
+  max-width: 1150px;
+
+  @media (min-width: $tablet-width) {
+    margin: 15px 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    padding: 0 50px;
+    display: grid;
+    grid-template:
+      "heading map"auto "list map"267px "button map"55px / 1fr 1fr;
+  }
+
+
+
+}
+

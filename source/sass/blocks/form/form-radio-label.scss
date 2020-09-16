@@ -1,13 +1,15 @@
 .label-radio {
   font-size: 17px;
   line-height: 18px;
-  padding: 10px 0 15px 30px;
+  padding: 0 0 20px 30px;
   position: relative;
   display: block;
   cursor: pointer;
   user-select: none;
 
   @media (min-width: $tablet-width) {
+    padding-bottom: 25px;
+    margin-left: 20px;
     margin-bottom: 5px;
     font-size: 20px;
     line-height: 18px;
