@@ -1,22 +1,26 @@
 .form-checkbox {
   border: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 0 20px;
   border-top: 1px solid $green;
   position: relative;
 
   @media (min-width: $tablet-width) {
+    margin: 0 auto;
     border: none;
     background-color: $bg-footer;
   }
 }
 
 .form-checkbox__container {
+  margin-top: 20px;
+  position: relative;
+
   @media (min-width: $tablet-width) {
     padding: 27px 0;
     max-width: 470px;
     margin: 10px auto;
-    position: relative;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
   }

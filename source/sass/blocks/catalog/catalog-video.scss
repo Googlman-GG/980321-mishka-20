@@ -1,6 +1,7 @@
-.main__video {
+.video {
   max-width: 1050px;
   margin: 0 30px;
+  margin-bottom: 58px;
   text-align: start;
   border: 1px solid $border;
 
@@ -9,7 +10,7 @@
   }
 
   @media (min-width: $tablet-width) {
-    margin: 15px 50px 100px 50px;
+    margin: 15px 50px 70px 50px;
     display: grid;
     grid-template: "video" auto "v-head" auto "descr" auto / 1fr;
   }

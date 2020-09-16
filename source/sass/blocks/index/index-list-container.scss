@@ -1,13 +1,12 @@
-.main-nav__list {
+.main-nav {
   margin: 0;
   padding: 0;
-  display: none;
 
   @media (min-width: $tablet-width) {
     display: flex;
   }
 }
 
-.main-nav__list--show {
+.main-nav--show {
   display: block;
 }

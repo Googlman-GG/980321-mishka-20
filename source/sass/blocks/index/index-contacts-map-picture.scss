@@ -1,5 +1,6 @@
 .contacts-picture {
   grid-area: map;
+  background-color: rgb(206, 214, 173);
 
   &::after {
     content: "";

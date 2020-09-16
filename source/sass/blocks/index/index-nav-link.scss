@@ -1,15 +1,4 @@
-.main-nav__item {
-  display: flex;
-  z-index: 1;
-  text-align: center;
-  box-shadow: 0 1px 0 $box-shadow, inset 0 1px 0 $box-shadow;
-
-  @media (min-width: $tablet-width) {
-    box-shadow: none;
-  }
-}
-
-.main-nav__link {
+.main-link__link {
   font-size: 17px;
   line-height: 24px;
   text-decoration: none;
