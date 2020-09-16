@@ -1,5 +1,3 @@
-"use strict";
-
 var navWrappers = Array.prototype.slice.call(document.querySelectorAll('.main-nav')),
     navToogler = document.querySelector('.page-header__toggle');
 navToogler.addEventListener('click', function (_event) {
